@@ -1,0 +1,24 @@
+PODS:
+  - CYLTabBarController (1.10.0)
+  - IQKeyboardManager (4.0.8)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - Reachability
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: e03c8b213d3be64ea3be6fe1cf91e6d7d445d0f8
+
+COCOAPODS: 1.2.0

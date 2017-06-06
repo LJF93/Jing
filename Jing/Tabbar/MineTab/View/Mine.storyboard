@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12113" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mzs-2N-22d">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base Navigation View Controller-->
+        <scene sceneID="EOG-ji-dWa">
+            <objects>
+                <navigationController id="Mzs-2N-22d" customClass="BaseNavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xrZ-sY-TKO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qJF-KI-A6X" kind="relationship" relationship="rootViewController" id="MAN-tt-5ni"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQo-op-i5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="188"/>
+        </scene>
+        <!--Mine Tab View Controller-->
+        <scene sceneID="ou8-av-raY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUy-XP-lBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="qJF-KI-A6X" customClass="MineTabViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YSY-Mt-KNF"/>
+                        <viewControllerLayoutGuide type="bottom" id="AeH-Tb-i2d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tOt-Yg-fJR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ux2-Ch-Ana"/>
+                    <connections>
+                        <outlet property="view" destination="tOt-Yg-fJR" id="duz-xG-z7g"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-87" y="186"/>
+        </scene>
+    </scenes>
+</document>
