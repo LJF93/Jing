@@ -24,6 +24,9 @@
 		F46C665F1EE1506B003FB916 /* BaseKnowledgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C665E1EE1506B003FB916 /* BaseKnowledgeController.m */; };
 		F46C66631EE151D7003FB916 /* KnowledgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C66611EE151D7003FB916 /* KnowledgeController.m */; };
 		F46C66641EE151D7003FB916 /* KnowledgeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46C66621EE151D7003FB916 /* KnowledgeController.xib */; };
+		F48135E11EE7F8A700C8C324 /* XMLYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F48135D91EE7F8A700C8C324 /* XMLYBaseRequest.m */; };
+		F48135E31EE7F8A700C8C324 /* XMLYBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F48135DD1EE7F8A700C8C324 /* XMLYBaseAPI.m */; };
+		F48135E41EE7F8A700C8C324 /* XMLYDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F48135E01EE7F8A700C8C324 /* XMLYDownloadRequest.m */; };
 		F49EB47F1ECED0B90054D94D /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EB47E1ECED0B90054D94D /* BaseNavigationViewController.m */; };
 		F49EB4861ECEDB650054D94D /* MPCodeStarndardCoping.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EB4831ECEDB650054D94D /* MPCodeStarndardCoping.m */; };
 		F49EB4871ECEDB650054D94D /* MPDelegateCodeStandards.m in Sources */ = {isa = PBXBuildFile; fileRef = F49EB4851ECEDB650054D94D /* MPDelegateCodeStandards.m */; };
@@ -112,6 +115,12 @@
 		F46C66601EE151D7003FB916 /* KnowledgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeController.h; sourceTree = "<group>"; };
 		F46C66611EE151D7003FB916 /* KnowledgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeController.m; sourceTree = "<group>"; };
 		F46C66621EE151D7003FB916 /* KnowledgeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KnowledgeController.xib; sourceTree = "<group>"; };
+		F48135D81EE7F8A700C8C324 /* XMLYBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLYBaseRequest.h; sourceTree = "<group>"; };
+		F48135D91EE7F8A700C8C324 /* XMLYBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLYBaseRequest.m; sourceTree = "<group>"; };
+		F48135DC1EE7F8A700C8C324 /* XMLYBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLYBaseAPI.h; sourceTree = "<group>"; };
+		F48135DD1EE7F8A700C8C324 /* XMLYBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLYBaseAPI.m; sourceTree = "<group>"; };
+		F48135DF1EE7F8A700C8C324 /* XMLYDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLYDownloadRequest.h; sourceTree = "<group>"; };
+		F48135E01EE7F8A700C8C324 /* XMLYDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLYDownloadRequest.m; sourceTree = "<group>"; };
 		F49EB4461ECD995E0054D94D /* Jing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49EB47D1ECED0B90054D94D /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		F49EB47E1ECED0B90054D94D /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
@@ -296,6 +305,43 @@
 				F46C665A1EE00CA9003FB916 /* SettingViewController.xib */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		F48135D61EE7F8A700C8C324 /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F48135D71EE7F8A700C8C324 /* HTTPBaseRequest */,
+				F48135DB1EE7F8A700C8C324 /* XMLYBaseAPI */,
+				F48135DE1EE7F8A700C8C324 /* XMLYDownloadRequest */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		F48135D71EE7F8A700C8C324 /* HTTPBaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F48135D81EE7F8A700C8C324 /* XMLYBaseRequest.h */,
+				F48135D91EE7F8A700C8C324 /* XMLYBaseRequest.m */,
+			);
+			path = HTTPBaseRequest;
+			sourceTree = "<group>";
+		};
+		F48135DB1EE7F8A700C8C324 /* XMLYBaseAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F48135DC1EE7F8A700C8C324 /* XMLYBaseAPI.h */,
+				F48135DD1EE7F8A700C8C324 /* XMLYBaseAPI.m */,
+			);
+			path = XMLYBaseAPI;
+			sourceTree = "<group>";
+		};
+		F48135DE1EE7F8A700C8C324 /* XMLYDownloadRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F48135DF1EE7F8A700C8C324 /* XMLYDownloadRequest.h */,
+				F48135E01EE7F8A700C8C324 /* XMLYDownloadRequest.m */,
+			);
+			path = XMLYDownloadRequest;
 			sourceTree = "<group>";
 		};
 		F49EB4811ECEDB650054D94D /* CodeStandards */ = {
@@ -559,6 +605,7 @@
 		F4E009301EC448AD0081A9F9 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				F48135D61EE7F8A700C8C324 /* HTTPRequest */,
 				F4E009311EC448AD0081A9F9 /* GVUserDefaults */,
 			);
 			path = Vender;
@@ -781,6 +828,7 @@
 				F4E009451EC448AD0081A9F9 /* Person+MutipleName.m in Sources */,
 				F4E009401EC448AD0081A9F9 /* AppDelegate.m in Sources */,
 				F4E009351EC448AD0081A9F9 /* AdvertiseView.m in Sources */,
+				F48135E41EE7F8A700C8C324 /* XMLYDownloadRequest.m in Sources */,
 				F46C664C1EDEC1EC003FB916 /* MineTabViewController.m in Sources */,
 				F4D23E981ED924CF000FD646 /* UIButton+MPHock.m in Sources */,
 				F4E009411EC448AD0081A9F9 /* MainViewController.m in Sources */,
@@ -813,6 +861,8 @@
 				F4D23E8E1ED924CF000FD646 /* MPOperation.m in Sources */,
 				F4D23E8C1ED924CF000FD646 /* MPLockViewController.m in Sources */,
 				F4D23E931ED924CF000FD646 /* MPViewControllerLifeCycle.m in Sources */,
+				F48135E31EE7F8A700C8C324 /* XMLYBaseAPI.m in Sources */,
+				F48135E11EE7F8A700C8C324 /* XMLYBaseRequest.m in Sources */,
 				F4D23E921ED924CF000FD646 /* MPThreadViewController.m in Sources */,
 				F46C66561EDFF3DE003FB916 /* UIResponder+Router.m in Sources */,
 				F4D23E941ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m in Sources */,

@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - CYLTabBarController (1.10.0)
   - IQKeyboardManager (4.0.8)
   - Masonry (1.0.2)
@@ -6,6 +21,7 @@ PODS:
   - Reachability (3.2)
 
 DEPENDENCIES:
+  - AFNetworking
   - CYLTabBarController
   - IQKeyboardManager
   - Masonry
@@ -13,12 +29,13 @@ DEPENDENCIES:
   - Reachability
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: e03c8b213d3be64ea3be6fe1cf91e6d7d445d0f8
+PODFILE CHECKSUM: 5c28ea819b4b8fe6d7abc66fd05b8fb6472b7c0f
 
 COCOAPODS: 1.2.0

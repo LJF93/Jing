@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'Jing' do
 
+    pod 'AFNetworking'
     pod 'IQKeyboardManager'
     pod 'CYLTabBarController'
     pod 'Reachability'
