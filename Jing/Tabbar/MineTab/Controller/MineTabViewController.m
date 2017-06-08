@@ -11,6 +11,9 @@
 #import "SettingViewController.h"
 #import "KnowledgeController.h"
 #import "BaseKnowledgeController.h"
+#import "SVWebViewController.h"
+
+static NSString *const kFreeTraficURL = @"http://hybrid.ximalaya.com/api/telecom/index?app=iting&device=iPhone&impl=com.gemd.iting&telephone=%28null%29&version=5.4.27";
 
 static NSString *const k0 = @"基础知识点";
 
@@ -208,21 +211,26 @@ static NSString *const k10 = @"智能硬件设备";
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSString *str = cell.textLabel.text;
 
-    UIViewController *vc;
-
     if ([str isEqualToString:k0]) {
-        vc = [[BaseKnowledgeController alloc] init];
+        BaseKnowledgeController *vc = [[BaseKnowledgeController alloc] init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
     }
     else if ([str isEqualToString:k1]) {
-        vc = [[KnowledgeController alloc] init];
+        KnowledgeController *vc = [[KnowledgeController alloc] init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
     }
     else if ([str isEqualToString:k3]) {
         [self trans2SettingVC];
         return;
     }
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
-
+    else if ([str isEqualToString:k4]) {
+        SVWebViewController *vc = [[SVWebViewController alloc] initWithAddress:kFreeTraficURL];
+        vc.showToolBar = YES;
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 @end
