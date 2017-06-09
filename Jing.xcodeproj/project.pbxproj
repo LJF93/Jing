@@ -52,26 +52,30 @@
 		F4AF6CD91EE9028B00283AF0 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CC41EE9028B00283AF0 /* SVWebViewControllerActivitySafari.m */; };
 		F4AF6CDA1EE9028B00283AF0 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF6CC51EE9028B00283AF0 /* SVWebViewControllerActivitySafari@2x.png */; };
 		F4AF6CDB1EE9028B00283AF0 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CC71EE9028B00283AF0 /* SVWebViewControllerActivity.m */; };
+		F4AF6D021EE9331000283AF0 /* MPGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CDE1EE9331000283AF0 /* MPGCDViewController.m */; };
+		F4AF6D031EE9331000283AF0 /* MPLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CE01EE9331000283AF0 /* MPLockViewController.m */; };
+		F4AF6D041EE9331000283AF0 /* MPMultithreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CE21EE9331000283AF0 /* MPMultithreadViewController.m */; };
+		F4AF6D051EE9331000283AF0 /* MPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CE41EE9331000283AF0 /* MPOperation.m */; };
+		F4AF6D061EE9331000283AF0 /* MPOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CE61EE9331000283AF0 /* MPOperationViewController.m */; };
+		F4AF6D071EE9331000283AF0 /* MPProtocolOptionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CE81EE9331000283AF0 /* MPProtocolOptionalViewController.m */; };
+		F4AF6D081EE9331000283AF0 /* MPRunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CEA1EE9331000283AF0 /* MPRunTimeViewController.m */; };
+		F4AF6D091EE9331000283AF0 /* MPThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CEC1EE9331000283AF0 /* MPThreadViewController.m */; };
+		F4AF6D0A1EE9331000283AF0 /* MPViewControllerLifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CEE1EE9331000283AF0 /* MPViewControllerLifeCycle.m */; };
+		F4AF6D0B1EE9331000283AF0 /* MPRunTimeTest+MPMehtod.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CF11EE9331000283AF0 /* MPRunTimeTest+MPMehtod.m */; };
+		F4AF6D0C1EE9331000283AF0 /* MPRunTimeTest+Other.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CF31EE9331000283AF0 /* MPRunTimeTest+Other.m */; };
+		F4AF6D0D1EE9331000283AF0 /* MPRunTimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CF51EE9331000283AF0 /* MPRunTimeTest.m */; };
+		F4AF6D0E1EE9331000283AF0 /* UIAlertView+MPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CF71EE9331000283AF0 /* UIAlertView+MPBlock.m */; };
+		F4AF6D0F1EE9331000283AF0 /* UIButton+MPHock.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CF91EE9331000283AF0 /* UIButton+MPHock.m */; };
+		F4AF6D101EE9331000283AF0 /* MPMSSqlDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CFD1EE9331000283AF0 /* MPMSSqlDataBase.m */; };
+		F4AF6D111EE9331000283AF0 /* MPOraceDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6CFF1EE9331000283AF0 /* MPOraceDataBase.m */; };
+		F4AF6D121EE9331000283AF0 /* MPUseProtocolOptional.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6D011EE9331000283AF0 /* MPUseProtocolOptional.m */; };
+		F4AF6D161EE9371400283AF0 /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6D151EE9371400283AF0 /* NavView.m */; };
+		F4AF6D1A1EE9519600283AF0 /* DYRecomController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6D191EE9519600283AF0 /* DYRecomController.m */; };
+		F4AF6D1D1EE951BD00283AF0 /* DYSubscriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6D1C1EE951BD00283AF0 /* DYSubscriptionController.m */; };
+		F4AF6D201EE951CB00283AF0 /* DYHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF6D1F1EE951CB00283AF0 /* DYHistoryController.m */; };
 		F4D23E871ED924CF000FD646 /* FindTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E521ED924CF000FD646 /* FindTabViewController.m */; };
 		F4D23E891ED924CF000FD646 /* PlayTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E571ED924CF000FD646 /* PlayTabViewController.m */; };
-		F4D23E8B1ED924CF000FD646 /* MPGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E5C1ED924CF000FD646 /* MPGCDViewController.m */; };
-		F4D23E8C1ED924CF000FD646 /* MPLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E5E1ED924CF000FD646 /* MPLockViewController.m */; };
-		F4D23E8D1ED924CF000FD646 /* MPMultithreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E601ED924CF000FD646 /* MPMultithreadViewController.m */; };
-		F4D23E8E1ED924CF000FD646 /* MPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E621ED924CF000FD646 /* MPOperation.m */; };
-		F4D23E8F1ED924CF000FD646 /* MPOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E641ED924CF000FD646 /* MPOperationViewController.m */; };
-		F4D23E901ED924CF000FD646 /* MPProtocolOptionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E661ED924CF000FD646 /* MPProtocolOptionalViewController.m */; };
-		F4D23E911ED924CF000FD646 /* MPRunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E681ED924CF000FD646 /* MPRunTimeViewController.m */; };
-		F4D23E921ED924CF000FD646 /* MPThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E6A1ED924CF000FD646 /* MPThreadViewController.m */; };
-		F4D23E931ED924CF000FD646 /* MPViewControllerLifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E6C1ED924CF000FD646 /* MPViewControllerLifeCycle.m */; };
-		F4D23E941ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E6F1ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m */; };
-		F4D23E951ED924CF000FD646 /* MPRunTimeTest+Other.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E711ED924CF000FD646 /* MPRunTimeTest+Other.m */; };
-		F4D23E961ED924CF000FD646 /* MPRunTimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E731ED924CF000FD646 /* MPRunTimeTest.m */; };
-		F4D23E971ED924CF000FD646 /* UIAlertView+MPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E751ED924CF000FD646 /* UIAlertView+MPBlock.m */; };
-		F4D23E981ED924CF000FD646 /* UIButton+MPHock.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E771ED924CF000FD646 /* UIButton+MPHock.m */; };
 		F4D23E991ED924CF000FD646 /* SoundTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E791ED924CF000FD646 /* SoundTabViewController.m */; };
-		F4D23E9B1ED924CF000FD646 /* MPMSSqlDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E7E1ED924CF000FD646 /* MPMSSqlDataBase.m */; };
-		F4D23E9C1ED924CF000FD646 /* MPOraceDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E801ED924CF000FD646 /* MPOraceDataBase.m */; };
-		F4D23E9D1ED924CF000FD646 /* MPUseProtocolOptional.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23E821ED924CF000FD646 /* MPUseProtocolOptional.m */; };
 		F4D23EA61ED927FF000FD646 /* DownloadTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D23EA41ED927FF000FD646 /* DownloadTabViewController.m */; };
 		F4E009341EC448AD0081A9F9 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E009091EC448AD0081A9F9 /* AdvertiseHelper.m */; };
 		F4E009351EC448AD0081A9F9 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E0090B1EC448AD0081A9F9 /* AdvertiseView.m */; };
@@ -96,15 +100,10 @@
 		F4E303131EE54D260032D18A /* messi.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E303121EE54D260032D18A /* messi.png */; };
 		F4E303161EE552F00032D18A /* FindBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303151EE552F00032D18A /* FindBaseViewController.m */; };
 		F4E3032B1EE688B20032D18A /* FindRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303231EE688B20032D18A /* FindRecommendController.m */; };
-		F4E3032C1EE688B20032D18A /* FindRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E303241EE688B20032D18A /* FindRecommendController.xib */; };
 		F4E3032D1EE688B20032D18A /* FindSub2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303261EE688B20032D18A /* FindSub2Controller.m */; };
-		F4E3032E1EE688B20032D18A /* FindSub2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E303271EE688B20032D18A /* FindSub2Controller.xib */; };
 		F4E3032F1EE688B20032D18A /* FindSub3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303291EE688B20032D18A /* FindSub3Controller.m */; };
-		F4E303301EE688B20032D18A /* FindSub3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E3032A1EE688B20032D18A /* FindSub3Controller.xib */; };
 		F4E303341EE688CF0032D18A /* FindSub4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303321EE688CF0032D18A /* FindSub4Controller.m */; };
-		F4E303351EE688CF0032D18A /* FindSub4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E303331EE688CF0032D18A /* FindSub4Controller.xib */; };
 		F4E303391EE689390032D18A /* FindSub5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E303371EE689390032D18A /* FindSub5Controller.m */; };
-		F4E3033A1EE689390032D18A /* FindSub5Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E303381EE689390032D18A /* FindSub5Controller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,47 +194,55 @@
 		F4AF6CC71EE9028B00283AF0 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
 		F4AF6CC81EE9028B00283AF0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
 		F4AF6CC91EE9028B00283AF0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		F4AF6CDD1EE9331000283AF0 /* MPGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGCDViewController.h; sourceTree = "<group>"; };
+		F4AF6CDE1EE9331000283AF0 /* MPGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGCDViewController.m; sourceTree = "<group>"; };
+		F4AF6CDF1EE9331000283AF0 /* MPLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLockViewController.h; sourceTree = "<group>"; };
+		F4AF6CE01EE9331000283AF0 /* MPLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLockViewController.m; sourceTree = "<group>"; };
+		F4AF6CE11EE9331000283AF0 /* MPMultithreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMultithreadViewController.h; sourceTree = "<group>"; };
+		F4AF6CE21EE9331000283AF0 /* MPMultithreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMultithreadViewController.m; sourceTree = "<group>"; };
+		F4AF6CE31EE9331000283AF0 /* MPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOperation.h; sourceTree = "<group>"; };
+		F4AF6CE41EE9331000283AF0 /* MPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOperation.m; sourceTree = "<group>"; };
+		F4AF6CE51EE9331000283AF0 /* MPOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOperationViewController.h; sourceTree = "<group>"; };
+		F4AF6CE61EE9331000283AF0 /* MPOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOperationViewController.m; sourceTree = "<group>"; };
+		F4AF6CE71EE9331000283AF0 /* MPProtocolOptionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPProtocolOptionalViewController.h; sourceTree = "<group>"; };
+		F4AF6CE81EE9331000283AF0 /* MPProtocolOptionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPProtocolOptionalViewController.m; sourceTree = "<group>"; };
+		F4AF6CE91EE9331000283AF0 /* MPRunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRunTimeViewController.h; sourceTree = "<group>"; };
+		F4AF6CEA1EE9331000283AF0 /* MPRunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRunTimeViewController.m; sourceTree = "<group>"; };
+		F4AF6CEB1EE9331000283AF0 /* MPThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPThreadViewController.h; sourceTree = "<group>"; };
+		F4AF6CEC1EE9331000283AF0 /* MPThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPThreadViewController.m; sourceTree = "<group>"; };
+		F4AF6CED1EE9331000283AF0 /* MPViewControllerLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPViewControllerLifeCycle.h; sourceTree = "<group>"; };
+		F4AF6CEE1EE9331000283AF0 /* MPViewControllerLifeCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPViewControllerLifeCycle.m; sourceTree = "<group>"; };
+		F4AF6CF01EE9331000283AF0 /* MPRunTimeTest+MPMehtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPRunTimeTest+MPMehtod.h"; sourceTree = "<group>"; };
+		F4AF6CF11EE9331000283AF0 /* MPRunTimeTest+MPMehtod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPRunTimeTest+MPMehtod.m"; sourceTree = "<group>"; };
+		F4AF6CF21EE9331000283AF0 /* MPRunTimeTest+Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPRunTimeTest+Other.h"; sourceTree = "<group>"; };
+		F4AF6CF31EE9331000283AF0 /* MPRunTimeTest+Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPRunTimeTest+Other.m"; sourceTree = "<group>"; };
+		F4AF6CF41EE9331000283AF0 /* MPRunTimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRunTimeTest.h; sourceTree = "<group>"; };
+		F4AF6CF51EE9331000283AF0 /* MPRunTimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRunTimeTest.m; sourceTree = "<group>"; };
+		F4AF6CF61EE9331000283AF0 /* UIAlertView+MPBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MPBlock.h"; sourceTree = "<group>"; };
+		F4AF6CF71EE9331000283AF0 /* UIAlertView+MPBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MPBlock.m"; sourceTree = "<group>"; };
+		F4AF6CF81EE9331000283AF0 /* UIButton+MPHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MPHock.h"; sourceTree = "<group>"; };
+		F4AF6CF91EE9331000283AF0 /* UIButton+MPHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MPHock.m"; sourceTree = "<group>"; };
+		F4AF6CFB1EE9331000283AF0 /* MPDataBaseConnectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDataBaseConnectionProtocol.h; sourceTree = "<group>"; };
+		F4AF6CFC1EE9331000283AF0 /* MPMSSqlDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMSSqlDataBase.h; sourceTree = "<group>"; };
+		F4AF6CFD1EE9331000283AF0 /* MPMSSqlDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMSSqlDataBase.m; sourceTree = "<group>"; };
+		F4AF6CFE1EE9331000283AF0 /* MPOraceDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOraceDataBase.h; sourceTree = "<group>"; };
+		F4AF6CFF1EE9331000283AF0 /* MPOraceDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOraceDataBase.m; sourceTree = "<group>"; };
+		F4AF6D001EE9331000283AF0 /* MPUseProtocolOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUseProtocolOptional.h; sourceTree = "<group>"; };
+		F4AF6D011EE9331000283AF0 /* MPUseProtocolOptional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUseProtocolOptional.m; sourceTree = "<group>"; };
+		F4AF6D141EE9371400283AF0 /* NavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavView.h; sourceTree = "<group>"; };
+		F4AF6D151EE9371400283AF0 /* NavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavView.m; sourceTree = "<group>"; };
+		F4AF6D181EE9519600283AF0 /* DYRecomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRecomController.h; sourceTree = "<group>"; };
+		F4AF6D191EE9519600283AF0 /* DYRecomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRecomController.m; sourceTree = "<group>"; };
+		F4AF6D1B1EE951BD00283AF0 /* DYSubscriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSubscriptionController.h; sourceTree = "<group>"; };
+		F4AF6D1C1EE951BD00283AF0 /* DYSubscriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSubscriptionController.m; sourceTree = "<group>"; };
+		F4AF6D1E1EE951CB00283AF0 /* DYHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHistoryController.h; sourceTree = "<group>"; };
+		F4AF6D1F1EE951CB00283AF0 /* DYHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHistoryController.m; sourceTree = "<group>"; };
 		F4D23E511ED924CF000FD646 /* FindTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTabViewController.h; sourceTree = "<group>"; };
 		F4D23E521ED924CF000FD646 /* FindTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTabViewController.m; sourceTree = "<group>"; };
 		F4D23E561ED924CF000FD646 /* PlayTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTabViewController.h; sourceTree = "<group>"; };
 		F4D23E571ED924CF000FD646 /* PlayTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTabViewController.m; sourceTree = "<group>"; };
-		F4D23E5B1ED924CF000FD646 /* MPGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGCDViewController.h; sourceTree = "<group>"; };
-		F4D23E5C1ED924CF000FD646 /* MPGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGCDViewController.m; sourceTree = "<group>"; };
-		F4D23E5D1ED924CF000FD646 /* MPLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLockViewController.h; sourceTree = "<group>"; };
-		F4D23E5E1ED924CF000FD646 /* MPLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLockViewController.m; sourceTree = "<group>"; };
-		F4D23E5F1ED924CF000FD646 /* MPMultithreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMultithreadViewController.h; sourceTree = "<group>"; };
-		F4D23E601ED924CF000FD646 /* MPMultithreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMultithreadViewController.m; sourceTree = "<group>"; };
-		F4D23E611ED924CF000FD646 /* MPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOperation.h; sourceTree = "<group>"; };
-		F4D23E621ED924CF000FD646 /* MPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOperation.m; sourceTree = "<group>"; };
-		F4D23E631ED924CF000FD646 /* MPOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOperationViewController.h; sourceTree = "<group>"; };
-		F4D23E641ED924CF000FD646 /* MPOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOperationViewController.m; sourceTree = "<group>"; };
-		F4D23E651ED924CF000FD646 /* MPProtocolOptionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPProtocolOptionalViewController.h; sourceTree = "<group>"; };
-		F4D23E661ED924CF000FD646 /* MPProtocolOptionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPProtocolOptionalViewController.m; sourceTree = "<group>"; };
-		F4D23E671ED924CF000FD646 /* MPRunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRunTimeViewController.h; sourceTree = "<group>"; };
-		F4D23E681ED924CF000FD646 /* MPRunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRunTimeViewController.m; sourceTree = "<group>"; };
-		F4D23E691ED924CF000FD646 /* MPThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPThreadViewController.h; sourceTree = "<group>"; };
-		F4D23E6A1ED924CF000FD646 /* MPThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPThreadViewController.m; sourceTree = "<group>"; };
-		F4D23E6B1ED924CF000FD646 /* MPViewControllerLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPViewControllerLifeCycle.h; sourceTree = "<group>"; };
-		F4D23E6C1ED924CF000FD646 /* MPViewControllerLifeCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPViewControllerLifeCycle.m; sourceTree = "<group>"; };
-		F4D23E6E1ED924CF000FD646 /* MPRunTimeTest+MPMehtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPRunTimeTest+MPMehtod.h"; sourceTree = "<group>"; };
-		F4D23E6F1ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPRunTimeTest+MPMehtod.m"; sourceTree = "<group>"; };
-		F4D23E701ED924CF000FD646 /* MPRunTimeTest+Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPRunTimeTest+Other.h"; sourceTree = "<group>"; };
-		F4D23E711ED924CF000FD646 /* MPRunTimeTest+Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPRunTimeTest+Other.m"; sourceTree = "<group>"; };
-		F4D23E721ED924CF000FD646 /* MPRunTimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRunTimeTest.h; sourceTree = "<group>"; };
-		F4D23E731ED924CF000FD646 /* MPRunTimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRunTimeTest.m; sourceTree = "<group>"; };
-		F4D23E741ED924CF000FD646 /* UIAlertView+MPBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MPBlock.h"; sourceTree = "<group>"; };
-		F4D23E751ED924CF000FD646 /* UIAlertView+MPBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MPBlock.m"; sourceTree = "<group>"; };
-		F4D23E761ED924CF000FD646 /* UIButton+MPHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MPHock.h"; sourceTree = "<group>"; };
-		F4D23E771ED924CF000FD646 /* UIButton+MPHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MPHock.m"; sourceTree = "<group>"; };
 		F4D23E781ED924CF000FD646 /* SoundTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTabViewController.h; sourceTree = "<group>"; };
 		F4D23E791ED924CF000FD646 /* SoundTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundTabViewController.m; sourceTree = "<group>"; };
-		F4D23E7C1ED924CF000FD646 /* MPDataBaseConnectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDataBaseConnectionProtocol.h; sourceTree = "<group>"; };
-		F4D23E7D1ED924CF000FD646 /* MPMSSqlDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMSSqlDataBase.h; sourceTree = "<group>"; };
-		F4D23E7E1ED924CF000FD646 /* MPMSSqlDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMSSqlDataBase.m; sourceTree = "<group>"; };
-		F4D23E7F1ED924CF000FD646 /* MPOraceDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOraceDataBase.h; sourceTree = "<group>"; };
-		F4D23E801ED924CF000FD646 /* MPOraceDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOraceDataBase.m; sourceTree = "<group>"; };
-		F4D23E811ED924CF000FD646 /* MPUseProtocolOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUseProtocolOptional.h; sourceTree = "<group>"; };
-		F4D23E821ED924CF000FD646 /* MPUseProtocolOptional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUseProtocolOptional.m; sourceTree = "<group>"; };
 		F4D23EA31ED927FF000FD646 /* DownloadTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTabViewController.h; sourceTree = "<group>"; };
 		F4D23EA41ED927FF000FD646 /* DownloadTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTabViewController.m; sourceTree = "<group>"; };
 		F4E009081EC448AD0081A9F9 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
@@ -279,19 +286,14 @@
 		F4E303151EE552F00032D18A /* FindBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindBaseViewController.m; sourceTree = "<group>"; };
 		F4E303221EE688B20032D18A /* FindRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindRecommendController.h; sourceTree = "<group>"; };
 		F4E303231EE688B20032D18A /* FindRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindRecommendController.m; sourceTree = "<group>"; };
-		F4E303241EE688B20032D18A /* FindRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindRecommendController.xib; sourceTree = "<group>"; };
 		F4E303251EE688B20032D18A /* FindSub2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSub2Controller.h; sourceTree = "<group>"; };
 		F4E303261EE688B20032D18A /* FindSub2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSub2Controller.m; sourceTree = "<group>"; };
-		F4E303271EE688B20032D18A /* FindSub2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindSub2Controller.xib; sourceTree = "<group>"; };
 		F4E303281EE688B20032D18A /* FindSub3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSub3Controller.h; sourceTree = "<group>"; };
 		F4E303291EE688B20032D18A /* FindSub3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSub3Controller.m; sourceTree = "<group>"; };
-		F4E3032A1EE688B20032D18A /* FindSub3Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindSub3Controller.xib; sourceTree = "<group>"; };
 		F4E303311EE688CF0032D18A /* FindSub4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSub4Controller.h; sourceTree = "<group>"; };
 		F4E303321EE688CF0032D18A /* FindSub4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSub4Controller.m; sourceTree = "<group>"; };
-		F4E303331EE688CF0032D18A /* FindSub4Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindSub4Controller.xib; sourceTree = "<group>"; };
 		F4E303361EE689390032D18A /* FindSub5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSub5Controller.h; sourceTree = "<group>"; };
 		F4E303371EE689390032D18A /* FindSub5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSub5Controller.m; sourceTree = "<group>"; };
-		F4E303381EE689390032D18A /* FindSub5Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindSub5Controller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -521,6 +523,84 @@
 			path = Safari;
 			sourceTree = "<group>";
 		};
+		F4AF6CDC1EE9331000283AF0 /* Multithread */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6CDD1EE9331000283AF0 /* MPGCDViewController.h */,
+				F4AF6CDE1EE9331000283AF0 /* MPGCDViewController.m */,
+				F4AF6CDF1EE9331000283AF0 /* MPLockViewController.h */,
+				F4AF6CE01EE9331000283AF0 /* MPLockViewController.m */,
+				F4AF6CE11EE9331000283AF0 /* MPMultithreadViewController.h */,
+				F4AF6CE21EE9331000283AF0 /* MPMultithreadViewController.m */,
+				F4AF6CE31EE9331000283AF0 /* MPOperation.h */,
+				F4AF6CE41EE9331000283AF0 /* MPOperation.m */,
+				F4AF6CE51EE9331000283AF0 /* MPOperationViewController.h */,
+				F4AF6CE61EE9331000283AF0 /* MPOperationViewController.m */,
+				F4AF6CE71EE9331000283AF0 /* MPProtocolOptionalViewController.h */,
+				F4AF6CE81EE9331000283AF0 /* MPProtocolOptionalViewController.m */,
+				F4AF6CE91EE9331000283AF0 /* MPRunTimeViewController.h */,
+				F4AF6CEA1EE9331000283AF0 /* MPRunTimeViewController.m */,
+				F4AF6CEB1EE9331000283AF0 /* MPThreadViewController.h */,
+				F4AF6CEC1EE9331000283AF0 /* MPThreadViewController.m */,
+				F4AF6CED1EE9331000283AF0 /* MPViewControllerLifeCycle.h */,
+				F4AF6CEE1EE9331000283AF0 /* MPViewControllerLifeCycle.m */,
+			);
+			path = Multithread;
+			sourceTree = "<group>";
+		};
+		F4AF6CEF1EE9331000283AF0 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6CF01EE9331000283AF0 /* MPRunTimeTest+MPMehtod.h */,
+				F4AF6CF11EE9331000283AF0 /* MPRunTimeTest+MPMehtod.m */,
+				F4AF6CF21EE9331000283AF0 /* MPRunTimeTest+Other.h */,
+				F4AF6CF31EE9331000283AF0 /* MPRunTimeTest+Other.m */,
+				F4AF6CF41EE9331000283AF0 /* MPRunTimeTest.h */,
+				F4AF6CF51EE9331000283AF0 /* MPRunTimeTest.m */,
+				F4AF6CF61EE9331000283AF0 /* UIAlertView+MPBlock.h */,
+				F4AF6CF71EE9331000283AF0 /* UIAlertView+MPBlock.m */,
+				F4AF6CF81EE9331000283AF0 /* UIButton+MPHock.h */,
+				F4AF6CF91EE9331000283AF0 /* UIButton+MPHock.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		F4AF6CFA1EE9331000283AF0 /* UseProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6CFB1EE9331000283AF0 /* MPDataBaseConnectionProtocol.h */,
+				F4AF6CFC1EE9331000283AF0 /* MPMSSqlDataBase.h */,
+				F4AF6CFD1EE9331000283AF0 /* MPMSSqlDataBase.m */,
+				F4AF6CFE1EE9331000283AF0 /* MPOraceDataBase.h */,
+				F4AF6CFF1EE9331000283AF0 /* MPOraceDataBase.m */,
+				F4AF6D001EE9331000283AF0 /* MPUseProtocolOptional.h */,
+				F4AF6D011EE9331000283AF0 /* MPUseProtocolOptional.m */,
+			);
+			path = UseProtocol;
+			sourceTree = "<group>";
+		};
+		F4AF6D131EE936EE00283AF0 /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6D141EE9371400283AF0 /* NavView.h */,
+				F4AF6D151EE9371400283AF0 /* NavView.m */,
+			);
+			path = NavView;
+			sourceTree = "<group>";
+		};
+		F4AF6D171EE9517900283AF0 /* SoundSub */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF6D181EE9519600283AF0 /* DYRecomController.h */,
+				F4AF6D191EE9519600283AF0 /* DYRecomController.m */,
+				F4AF6D1B1EE951BD00283AF0 /* DYSubscriptionController.h */,
+				F4AF6D1C1EE951BD00283AF0 /* DYSubscriptionController.m */,
+				F4AF6D1E1EE951CB00283AF0 /* DYHistoryController.h */,
+				F4AF6D1F1EE951CB00283AF0 /* DYHistoryController.m */,
+			);
+			path = SoundSub;
+			sourceTree = "<group>";
+		};
 		F4D132E01EB09B52005D8115 = {
 			isa = PBXGroup;
 			children = (
@@ -534,11 +614,11 @@
 		F4D23E481ED924CF000FD646 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				F4D23E491ED924CF000FD646 /* DownloadTab */,
 				F4D23E4A1ED924CF000FD646 /* FindTab */,
-				F46C66391EDEB5BD003FB916 /* MineTab */,
-				F4D23E551ED924CF000FD646 /* PlayTab */,
 				F4D23E591ED924CF000FD646 /* SoundTab */,
+				F4D23E551ED924CF000FD646 /* PlayTab */,
+				F4D23E491ED924CF000FD646 /* DownloadTab */,
+				F46C66391EDEB5BD003FB916 /* MineTab */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -579,70 +659,12 @@
 		F4D23E591ED924CF000FD646 /* SoundTab */ = {
 			isa = PBXGroup;
 			children = (
-				F4D23E5A1ED924CF000FD646 /* Multithread */,
-				F4D23E6D1ED924CF000FD646 /* RunTime */,
+				F4AF6D171EE9517900283AF0 /* SoundSub */,
 				F46C66371EDEA602003FB916 /* Sound.storyboard */,
 				F4D23E781ED924CF000FD646 /* SoundTabViewController.h */,
 				F4D23E791ED924CF000FD646 /* SoundTabViewController.m */,
-				F4D23E7B1ED924CF000FD646 /* UseProtocol */,
 			);
 			path = SoundTab;
-			sourceTree = "<group>";
-		};
-		F4D23E5A1ED924CF000FD646 /* Multithread */ = {
-			isa = PBXGroup;
-			children = (
-				F4D23E5B1ED924CF000FD646 /* MPGCDViewController.h */,
-				F4D23E5C1ED924CF000FD646 /* MPGCDViewController.m */,
-				F4D23E5D1ED924CF000FD646 /* MPLockViewController.h */,
-				F4D23E5E1ED924CF000FD646 /* MPLockViewController.m */,
-				F4D23E5F1ED924CF000FD646 /* MPMultithreadViewController.h */,
-				F4D23E601ED924CF000FD646 /* MPMultithreadViewController.m */,
-				F4D23E611ED924CF000FD646 /* MPOperation.h */,
-				F4D23E621ED924CF000FD646 /* MPOperation.m */,
-				F4D23E631ED924CF000FD646 /* MPOperationViewController.h */,
-				F4D23E641ED924CF000FD646 /* MPOperationViewController.m */,
-				F4D23E651ED924CF000FD646 /* MPProtocolOptionalViewController.h */,
-				F4D23E661ED924CF000FD646 /* MPProtocolOptionalViewController.m */,
-				F4D23E671ED924CF000FD646 /* MPRunTimeViewController.h */,
-				F4D23E681ED924CF000FD646 /* MPRunTimeViewController.m */,
-				F4D23E691ED924CF000FD646 /* MPThreadViewController.h */,
-				F4D23E6A1ED924CF000FD646 /* MPThreadViewController.m */,
-				F4D23E6B1ED924CF000FD646 /* MPViewControllerLifeCycle.h */,
-				F4D23E6C1ED924CF000FD646 /* MPViewControllerLifeCycle.m */,
-			);
-			path = Multithread;
-			sourceTree = "<group>";
-		};
-		F4D23E6D1ED924CF000FD646 /* RunTime */ = {
-			isa = PBXGroup;
-			children = (
-				F4D23E6E1ED924CF000FD646 /* MPRunTimeTest+MPMehtod.h */,
-				F4D23E6F1ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m */,
-				F4D23E701ED924CF000FD646 /* MPRunTimeTest+Other.h */,
-				F4D23E711ED924CF000FD646 /* MPRunTimeTest+Other.m */,
-				F4D23E721ED924CF000FD646 /* MPRunTimeTest.h */,
-				F4D23E731ED924CF000FD646 /* MPRunTimeTest.m */,
-				F4D23E741ED924CF000FD646 /* UIAlertView+MPBlock.h */,
-				F4D23E751ED924CF000FD646 /* UIAlertView+MPBlock.m */,
-				F4D23E761ED924CF000FD646 /* UIButton+MPHock.h */,
-				F4D23E771ED924CF000FD646 /* UIButton+MPHock.m */,
-			);
-			path = RunTime;
-			sourceTree = "<group>";
-		};
-		F4D23E7B1ED924CF000FD646 /* UseProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				F4D23E7C1ED924CF000FD646 /* MPDataBaseConnectionProtocol.h */,
-				F4D23E7D1ED924CF000FD646 /* MPMSSqlDataBase.h */,
-				F4D23E7E1ED924CF000FD646 /* MPMSSqlDataBase.m */,
-				F4D23E7F1ED924CF000FD646 /* MPOraceDataBase.h */,
-				F4D23E801ED924CF000FD646 /* MPOraceDataBase.m */,
-				F4D23E811ED924CF000FD646 /* MPUseProtocolOptional.h */,
-				F4D23E821ED924CF000FD646 /* MPUseProtocolOptional.m */,
-			);
-			path = UseProtocol;
 			sourceTree = "<group>";
 		};
 		F4E009061EC448AD0081A9F9 /* Jing */ = {
@@ -741,6 +763,7 @@
 		F4E009261EC448AD0081A9F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4AF6D131EE936EE00283AF0 /* NavView */,
 				F4E009271EC448AD0081A9F9 /* GraphicsView.h */,
 				F4E009281EC448AD0081A9F9 /* GraphicsView.m */,
 			);
@@ -761,9 +784,12 @@
 		F4E009301EC448AD0081A9F9 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				F4AF6C9F1EE9028B00283AF0 /* WebView */,
-				F48135D61EE7F8A700C8C324 /* HTTPRequest */,
 				F4E009311EC448AD0081A9F9 /* GVUserDefaults */,
+				F48135D61EE7F8A700C8C324 /* HTTPRequest */,
+				F4AF6CDC1EE9331000283AF0 /* Multithread */,
+				F4AF6CEF1EE9331000283AF0 /* RunTime */,
+				F4AF6CFA1EE9331000283AF0 /* UseProtocol */,
+				F4AF6C9F1EE9028B00283AF0 /* WebView */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -806,19 +832,14 @@
 			children = (
 				F4E303221EE688B20032D18A /* FindRecommendController.h */,
 				F4E303231EE688B20032D18A /* FindRecommendController.m */,
-				F4E303241EE688B20032D18A /* FindRecommendController.xib */,
 				F4E303251EE688B20032D18A /* FindSub2Controller.h */,
 				F4E303261EE688B20032D18A /* FindSub2Controller.m */,
-				F4E303271EE688B20032D18A /* FindSub2Controller.xib */,
 				F4E303281EE688B20032D18A /* FindSub3Controller.h */,
 				F4E303291EE688B20032D18A /* FindSub3Controller.m */,
-				F4E3032A1EE688B20032D18A /* FindSub3Controller.xib */,
 				F4E303311EE688CF0032D18A /* FindSub4Controller.h */,
 				F4E303321EE688CF0032D18A /* FindSub4Controller.m */,
-				F4E303331EE688CF0032D18A /* FindSub4Controller.xib */,
 				F4E303361EE689390032D18A /* FindSub5Controller.h */,
 				F4E303371EE689390032D18A /* FindSub5Controller.m */,
-				F4E303381EE689390032D18A /* FindSub5Controller.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -900,12 +921,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E0093C1EC448AD0081A9F9 /* Preview.xcassets in Resources */,
-				F4E303351EE688CF0032D18A /* FindSub4Controller.xib in Resources */,
 				F46C66301EDEA5D5003FB916 /* Download.storyboard in Resources */,
 				F46C66321EDEA5E3003FB916 /* Find.storyboard in Resources */,
 				F4E0093B1EC448AD0081A9F9 /* cart-product@2x.png in Resources */,
 				F4AF6CD81EE9028B00283AF0 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
-				F4E3032E1EE688B20032D18A /* FindSub2Controller.xib in Resources */,
 				F46C66501EDFB167003FB916 /* MineHeaderView.xib in Resources */,
 				F46C665C1EE00CA9003FB916 /* SettingViewController.xib in Resources */,
 				F4AF6CCA1EE9028B00283AF0 /* SVWebViewController.strings in Resources */,
@@ -914,15 +933,12 @@
 				F4E009391EC448AD0081A9F9 /* Assets.xcassets in Resources */,
 				F46C66381EDEA602003FB916 /* Sound.storyboard in Resources */,
 				F4AF6CD61EE9028B00283AF0 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
-				F4E3033A1EE689390032D18A /* FindSub5Controller.xib in Resources */,
 				F4AF6CD31EE9028B00283AF0 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
 				F4E009361EC448AD0081A9F9 /* LaunchScreen.storyboard in Resources */,
 				F4AF6CDA1EE9028B00283AF0 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
-				F4E3032C1EE688B20032D18A /* FindRecommendController.xib in Resources */,
 				F4E0093A1EC448AD0081A9F9 /* cart-product.png in Resources */,
 				F46C66481EDEC1D8003FB916 /* Mine.storyboard in Resources */,
 				F4E303131EE54D260032D18A /* messi.png in Resources */,
-				F4E303301EE688B20032D18A /* FindSub3Controller.xib in Resources */,
 				F46C66641EE151D7003FB916 /* KnowledgeController.xib in Resources */,
 				F4AF6CD41EE9028B00283AF0 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				F4E0093D1EC448AD0081A9F9 /* Info.plist in Resources */,
@@ -988,19 +1004,25 @@
 				F49EB4871ECEDB650054D94D /* MPDelegateCodeStandards.m in Sources */,
 				F4E009371EC448AD0081A9F9 /* GVUserDefaults+MyProperties.m in Sources */,
 				F49EB4A91ECEDD9B0054D94D /* BaseViewController.m in Sources */,
+				F4AF6D111EE9331000283AF0 /* MPOraceDataBase.m in Sources */,
 				F4D23E991ED924CF000FD646 /* SoundTabViewController.m in Sources */,
+				F4AF6D021EE9331000283AF0 /* MPGCDViewController.m in Sources */,
 				F4E303111EE53CCF0032D18A /* FindSubTitleView.m in Sources */,
 				F49EB47F1ECED0B90054D94D /* BaseNavigationViewController.m in Sources */,
+				F4AF6D0D1EE9331000283AF0 /* MPRunTimeTest.m in Sources */,
+				F4AF6D0F1EE9331000283AF0 /* UIButton+MPHock.m in Sources */,
 				F4D23E871ED924CF000FD646 /* FindTabViewController.m in Sources */,
-				F4D23E8B1ED924CF000FD646 /* MPGCDViewController.m in Sources */,
 				F4AF6CDB1EE9028B00283AF0 /* SVWebViewControllerActivity.m in Sources */,
+				F4AF6D1A1EE9519600283AF0 /* DYRecomController.m in Sources */,
+				F4AF6D091EE9331000283AF0 /* MPThreadViewController.m in Sources */,
 				F4E0093F1EC448AD0081A9F9 /* IntroductoryPageView.m in Sources */,
+				F4AF6D031EE9331000283AF0 /* MPLockViewController.m in Sources */,
 				F44FA7C41ED416FD00C94020 /* UIViewController+Swizzlng.m in Sources */,
-				F4D23E951ED924CF000FD646 /* MPRunTimeTest+Other.m in Sources */,
 				F46C66461EDEC1B1003FB916 /* MineHeaderView.m in Sources */,
-				F4D23E901ED924CF000FD646 /* MPProtocolOptionalViewController.m in Sources */,
 				F4E009461EC448AD0081A9F9 /* Person.m in Sources */,
+				F4AF6D1D1EE951BD00283AF0 /* DYSubscriptionController.m in Sources */,
 				F4E009451EC448AD0081A9F9 /* Person+MutipleName.m in Sources */,
+				F4AF6D121EE9331000283AF0 /* MPUseProtocolOptional.m in Sources */,
 				F4E009401EC448AD0081A9F9 /* AppDelegate.m in Sources */,
 				F4AF6CD21EE9028B00283AF0 /* SVWebViewController.m in Sources */,
 				F4E009351EC448AD0081A9F9 /* AdvertiseView.m in Sources */,
@@ -1008,13 +1030,12 @@
 				F4AF6CD01EE9028B00283AF0 /* SVModalWebViewController.m in Sources */,
 				F4AF6CCE1EE9028B00283AF0 /* NSEtcHosts.m in Sources */,
 				F46C664C1EDEC1EC003FB916 /* MineTabViewController.m in Sources */,
-				F4D23E981ED924CF000FD646 /* UIButton+MPHock.m in Sources */,
 				F4E009411EC448AD0081A9F9 /* MainViewController.m in Sources */,
 				F46C665F1EE1506B003FB916 /* BaseKnowledgeController.m in Sources */,
 				F4E009431EC448AD0081A9F9 /* GraphicsView.m in Sources */,
 				F4E0093E1EC448AD0081A9F9 /* IntroductoryPageHelper.m in Sources */,
-				F4D23E9D1ED924CF000FD646 /* MPUseProtocolOptional.m in Sources */,
-				F4D23E911ED924CF000FD646 /* MPRunTimeViewController.m in Sources */,
+				F4AF6D201EE951CB00283AF0 /* DYHistoryController.m in Sources */,
+				F4AF6D101EE9331000283AF0 /* MPMSSqlDataBase.m in Sources */,
 				F4E009441EC448AD0081A9F9 /* main.m in Sources */,
 				F4AF6CCF1EE9028B00283AF0 /* STTools.m in Sources */,
 				F4E009341EC448AD0081A9F9 /* AdvertiseHelper.m in Sources */,
@@ -1022,37 +1043,36 @@
 				F4D23E891ED924CF000FD646 /* PlayTabViewController.m in Sources */,
 				F4E3032B1EE688B20032D18A /* FindRecommendController.m in Sources */,
 				F4E303341EE688CF0032D18A /* FindSub4Controller.m in Sources */,
+				F4AF6D0A1EE9331000283AF0 /* MPViewControllerLifeCycle.m in Sources */,
 				F4AF6CCB1EE9028B00283AF0 /* MyURLCache.m in Sources */,
 				F4E303101EE53CCF0032D18A /* FindSubFactory.m in Sources */,
 				F46C66531EDFE53A003FB916 /* CALayer+XibConfiguration.m in Sources */,
-				F4D23E8F1ED924CF000FD646 /* MPOperationViewController.m in Sources */,
 				F4E009471EC448AD0081A9F9 /* GVUserDefaults.m in Sources */,
-				F4D23E971ED924CF000FD646 /* UIAlertView+MPBlock.m in Sources */,
-				F4D23E9C1ED924CF000FD646 /* MPOraceDataBase.m in Sources */,
+				F4AF6D061EE9331000283AF0 /* MPOperationViewController.m in Sources */,
 				F46C665B1EE00CA9003FB916 /* SettingViewController.m in Sources */,
-				F4D23E9B1ED924CF000FD646 /* MPMSSqlDataBase.m in Sources */,
+				F4AF6D041EE9331000283AF0 /* MPMultithreadViewController.m in Sources */,
 				F46C66631EE151D7003FB916 /* KnowledgeController.m in Sources */,
 				F4E3032D1EE688B20032D18A /* FindSub2Controller.m in Sources */,
 				F4D23EA61ED927FF000FD646 /* DownloadTabViewController.m in Sources */,
-				F4D23E961ED924CF000FD646 /* MPRunTimeTest.m in Sources */,
+				F4AF6D0B1EE9331000283AF0 /* MPRunTimeTest+MPMehtod.m in Sources */,
 				F4E303391EE689390032D18A /* FindSub5Controller.m in Sources */,
 				F4AF6C9A1EE9012D00283AF0 /* XMLYFindAPI.m in Sources */,
 				F49EB48A1ECEDBE40054D94D /* MPCodeStandards.m in Sources */,
 				F4E3032F1EE688B20032D18A /* FindSub3Controller.m in Sources */,
-				F4D23E8E1ED924CF000FD646 /* MPOperation.m in Sources */,
-				F4D23E8C1ED924CF000FD646 /* MPLockViewController.m in Sources */,
+				F4AF6D051EE9331000283AF0 /* MPOperation.m in Sources */,
 				F4AF6CD91EE9028B00283AF0 /* SVWebViewControllerActivitySafari.m in Sources */,
 				F4AF6CD51EE9028B00283AF0 /* SVWebViewControllerActivityChrome.m in Sources */,
-				F4D23E931ED924CF000FD646 /* MPViewControllerLifeCycle.m in Sources */,
 				F48135E31EE7F8A700C8C324 /* XMLYBaseAPI.m in Sources */,
 				F4AF6CCD1EE9028B00283AF0 /* NJKWebViewProgressView.m in Sources */,
+				F4AF6D0E1EE9331000283AF0 /* UIAlertView+MPBlock.m in Sources */,
+				F4AF6D071EE9331000283AF0 /* MPProtocolOptionalViewController.m in Sources */,
 				F48135E11EE7F8A700C8C324 /* XMLYBaseRequest.m in Sources */,
-				F4D23E921ED924CF000FD646 /* MPThreadViewController.m in Sources */,
+				F4AF6D081EE9331000283AF0 /* MPRunTimeViewController.m in Sources */,
 				F46C66561EDFF3DE003FB916 /* UIResponder+Router.m in Sources */,
-				F4D23E941ED924CF000FD646 /* MPRunTimeTest+MPMehtod.m in Sources */,
 				F4E303161EE552F00032D18A /* FindBaseViewController.m in Sources */,
-				F4D23E8D1ED924CF000FD646 /* MPMultithreadViewController.m in Sources */,
+				F4AF6D161EE9371400283AF0 /* NavView.m in Sources */,
 				F4AF6C9E1EE9019500283AF0 /* XMLYListenListAPI.m in Sources */,
+				F4AF6D0C1EE9331000283AF0 /* MPRunTimeTest+Other.m in Sources */,
 				F4AF6CCC1EE9028B00283AF0 /* NJKWebViewProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

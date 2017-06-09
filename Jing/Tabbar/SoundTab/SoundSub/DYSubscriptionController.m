@@ -1,22 +1,24 @@
 //
-//  FindRecommendController.m
+//  DYSubscriptionController.m
 //  Jing
 //
-//  Created by Mac on 2017/6/5.
+//  Created by Mac on 2017/6/8.
 //  Copyright © 2017年 Sanvio. All rights reserved.
 //
 
-#import "FindRecommendController.h"
+#import "DYSubscriptionController.h"
 
-@interface FindRecommendController ()
+@interface DYSubscriptionController ()
 
 @end
 
-@implementation FindRecommendController
+@implementation DYSubscriptionController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
+
+    self.view.backgroundColor = [UIColor brownColor];
 }
 
 - (void)didReceiveMemoryWarning {

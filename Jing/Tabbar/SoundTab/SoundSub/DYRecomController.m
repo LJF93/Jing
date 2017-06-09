@@ -1,22 +1,23 @@
 //
-//  FindRecommendController.m
+//  DYRecomController.m
 //  Jing
 //
-//  Created by Mac on 2017/6/5.
+//  Created by Mac on 2017/6/8.
 //  Copyright © 2017年 Sanvio. All rights reserved.
 //
 
-#import "FindRecommendController.h"
+#import "DYRecomController.h"
 
-@interface FindRecommendController ()
+@interface DYRecomController ()
 
 @end
 
-@implementation FindRecommendController
+@implementation DYRecomController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
