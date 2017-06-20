@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EAE717549D479802F1300088 /* Pods_Jing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F526F59E74C7548479FF74 /* Pods_Jing.framework */; };
 		F44FA7C41ED416FD00C94020 /* UIViewController+Swizzlng.m in Sources */ = {isa = PBXBuildFile; fileRef = F44FA7C31ED416FD00C94020 /* UIViewController+Swizzlng.m */; };
+		F4614FC51EF8F75A008B964A /* Loading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4614FC41EF8F75A008B964A /* Loading.bundle */; };
 		F46C66301EDEA5D5003FB916 /* Download.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C662F1EDEA5D5003FB916 /* Download.storyboard */; };
 		F46C66321EDEA5E3003FB916 /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C66311EDEA5E3003FB916 /* Find.storyboard */; };
 		F46C66361EDEA5F9003FB916 /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C66351EDEA5F9003FB916 /* Play.storyboard */; };
@@ -112,6 +113,7 @@
 		D4F526F59E74C7548479FF74 /* Pods_Jing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44FA7C21ED416FD00C94020 /* UIViewController+Swizzlng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzlng.h"; sourceTree = "<group>"; };
 		F44FA7C31ED416FD00C94020 /* UIViewController+Swizzlng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzlng.m"; sourceTree = "<group>"; };
+		F4614FC41EF8F75A008B964A /* Loading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Loading.bundle; sourceTree = "<group>"; };
 		F46C662F1EDEA5D5003FB916 /* Download.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Download.storyboard; sourceTree = "<group>"; };
 		F46C66311EDEA5E3003FB916 /* Find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
 		F46C66351EDEA5F9003FB916 /* Play.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
@@ -714,6 +716,7 @@
 		F4E009111EC448AD0081A9F9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F4614FC41EF8F75A008B964A /* Loading.bundle */,
 				F4E303121EE54D260032D18A /* messi.png */,
 				F4E009131EC448AD0081A9F9 /* Assets.xcassets */,
 				F4E009141EC448AD0081A9F9 /* cart-product.png */,
@@ -940,6 +943,7 @@
 				F46C66481EDEC1D8003FB916 /* Mine.storyboard in Resources */,
 				F4E303131EE54D260032D18A /* messi.png in Resources */,
 				F46C66641EE151D7003FB916 /* KnowledgeController.xib in Resources */,
+				F4614FC51EF8F75A008B964A /* Loading.bundle in Resources */,
 				F4AF6CD41EE9028B00283AF0 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				F4E0093D1EC448AD0081A9F9 /* Info.plist in Resources */,
 				F4AF6CD71EE9028B00283AF0 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
