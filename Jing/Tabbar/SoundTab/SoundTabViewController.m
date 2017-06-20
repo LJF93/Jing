@@ -60,7 +60,7 @@
         page.delegate = self;
         page.dataSource = self;
         //！！！！！！！！！！！！！！！！！！！！//
-        [page willMoveToParentViewController:self];
+//        [page willMoveToParentViewController:self];
         //！！！！！！！！！！！！！！！！！！！！//
         [self.view addSubview:page.view];
         [self addChildViewController:page];
