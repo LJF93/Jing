@@ -9,7 +9,6 @@
 #import "KnowledgeController.h"
 #import "Person.h"
 #import "GraphicsView.h"
-#import <CoreMotion/CoreMotion.h>
 #import "Person+MutipleName.h"
 #import <objc/runtime.h>
 
@@ -55,9 +54,32 @@
 
 }
 
+- (void)viewDidDisappear:(BOOL)animated {
+    if ([_timer isValid]) {
+        [_timer invalidate];
+        _timer = nil;
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+/**
+ 运行，发现定时器还是没有停止。原因是Timer被添加到Runloop的时候，会被Runloop强引用了。
+
+ 然后 Timer 又会有一个对 Target 的强引用（也就是 self ）：
+
+ 也就是说 NSTimer 强引用了 self ，导致 self 一直不能被释放掉，所以也就走不到 self 的 dealloc 里。
+ */
+- (void)dealloc {
+    if ([_timer isValid]) {
+        [_timer invalidate];
+        _timer = nil;
+    }
+    NSLog(@"%@ dealloc", NSStringFromClass([self class]));
 }
 
 - (void)contentView {
@@ -76,10 +98,10 @@
     [self.myImageView setImage:[self imageCompressWithSimple:myImage scale:1.0]];
 
     // 模拟加载一组图片实现Gif动态图显示。
-    UIImageView *gifImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    UIImageView *gifImageView = [[UIImageView alloc] initWithFrame:CGRectMake(140, 230, 60, 60)];
     gifImageView.animationImages = [self animationImages]; //获取Gif图片列表
-    gifImageView.animationDuration = 5;     //执行一次完整动画所需的时长
-    gifImageView.animationRepeatCount = 1;  //动画重复次数
+    gifImageView.animationDuration = 0.3;     //执行一次完整动画所需的时长
+    gifImageView.animationRepeatCount = INT_MAX;  //动画重复次数
     [gifImageView startAnimating];
 
     [self.scrollView addSubview:gifImageView];
@@ -104,6 +126,13 @@
     // 方法2：
     timeCount = 0;
     [[NSRunLoop currentRunLoop] addTimer:self.countTimer forMode:NSRunLoopCommonModes];
+    /*
+     *如果我们把一个NSTimer对象以NSDefaultRunLoopMode（kCFRunLoopDefaultMode）添加到主运行循环中的时候, ScrollView滚动过程中会因为mode的切换，而导致NSTimer将不再被调度。
+
+     若希望ScrollView滚动时，不调度定时器，那就应该使用NSDefaultRunLoopMode默认模式；
+     
+     若希望ScrollView滚动时，定时器也要回调，那就应该使用NSRunLoopCommonModes。
+     */
 }
 
 - (void)bannerStart{
@@ -124,7 +153,7 @@
     timeCount++;
     self.timeLabel.text = [NSString stringWithFormat:@"Timer: %ld",(long)timeCount];
     self.timeLabel.adjustsFontSizeToFitWidth = YES;
-    //    NSLog(@"%ld",(long)timeCount);
+    NSLog(@"Timer:%ld",(long)timeCount);
 
 }
 

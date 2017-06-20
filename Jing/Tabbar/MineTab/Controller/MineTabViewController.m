@@ -24,9 +24,9 @@ static NSString *const k3 = @"设置";
 static NSString *const k4 = @"免流量服务";
 static NSString *const k5 = @"意见反馈";
 
-static NSString *const k6 = @"喜马拉雅商城";
-static NSString *const k7 = @"我的商城订单";
-static NSString *const k8 = @"我的优惠券";
+static NSString *const k6 = @"商城";
+static NSString *const k7 = @"商城订单";
+static NSString *const k8 = @"优惠券";
 static NSString *const k9 = @"游戏中心";
 static NSString *const k10 = @"智能硬件设备";
 
@@ -221,7 +221,14 @@ static NSString *const k10 = @"智能硬件设备";
         vc.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:vc animated:YES];
     }
-    else if ([str isEqualToString:k3]) {
+    else if ([str isEqualToString:k2] ||
+             [str isEqualToString:k3] ||
+             [str isEqualToString:k5] ||
+             [str isEqualToString:k6] ||
+             [str isEqualToString:k7] ||
+             [str isEqualToString:k8] ||
+             [str isEqualToString:k9] ||
+             [str isEqualToString:k10]) {
         [self trans2SettingVC];
         return;
     }
