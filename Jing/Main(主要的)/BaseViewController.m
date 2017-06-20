@@ -36,7 +36,8 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = HEXCOLOR(0xf3f3f3);
-    //self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.extendedLayoutIncludesOpaqueBars = YES;
     self.navigationController.navigationBar.translucent = NO;
     [self.navigationController setNavigationBarHidden:NO];
