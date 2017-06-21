@@ -1229,7 +1229,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
-				INFOPLIST_FILE = Jing/Info.plist;
+				INFOPLIST_FILE = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Info.plist;
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1249,7 +1249,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
-				INFOPLIST_FILE = Jing/Info.plist;
+				INFOPLIST_FILE = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Info.plist;
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
