@@ -48,6 +48,10 @@
 
     //    [self threadsManagement];
 
+    NSArray *arr = @[@10, @20, @5, @7, @15];
+    NSArray *newArr = [arr sortedArrayUsingSelector:@selector(compare:)];
+    NSLog(@"排序后: %@", newArr);
+
     person = [[Person alloc] init];
     person.chineseName = @"xiaoming";
     NSLog(@"Person first name is %@",person.chineseName);
@@ -153,7 +157,7 @@
     timeCount++;
     self.timeLabel.text = [NSString stringWithFormat:@"Timer: %ld",(long)timeCount];
     self.timeLabel.adjustsFontSizeToFitWidth = YES;
-    NSLog(@"Timer:%ld",(long)timeCount);
+//    NSLog(@"Timer:%ld",(long)timeCount);
 
 }
 
@@ -380,7 +384,7 @@
     UIButton *btn = (UIButton *)sender;
     CGPoint point = [btn.superview convertPoint:btn.center toView:self.view];
 
-    UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(-20, -20, 20, 20)];
+    UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     view.image = [UIImage imageNamed:@"cart-product.png"];
     view.contentMode = UIViewContentModeScaleAspectFit;
     view.backgroundColor = [UIColor clearColor];
@@ -388,7 +392,7 @@
 
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, NULL, point.x+20, point.y);//起始点的坐标
+    CGPathMoveToPoint(path, NULL, point.x, point.y);//起始点的坐标
     CGPathAddQuadCurveToPoint(path, NULL, 160, 30, Main_Screen_Width-30, 44);
     animation.path = path;
     animation.duration = 0.8;
