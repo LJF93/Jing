@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EAE717549D479802F1300088 /* Pods_Jing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F526F59E74C7548479FF74 /* Pods_Jing.framework */; };
+		F41FDD741F00F03400F09572 /* introductoryPage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F41FDD731F00F03400F09572 /* introductoryPage.bundle */; };
+		F41FDD771F00FC4A00F09572 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F41FDD761F00FC4A00F09572 /* Utils.m */; };
 		F46151F31EFA77A5008B964A /* XMLYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F46151121EFA77A4008B964A /* XMLYBaseRequest.m */; };
 		F46151F41EFA77A5008B964A /* XMLYBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F46151151EFA77A4008B964A /* XMLYBaseAPI.m */; };
 		F46151F51EFA77A5008B964A /* XMLYDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F46151181EFA77A4008B964A /* XMLYDownloadRequest.m */; };
@@ -111,6 +113,9 @@
 		1FC8CDD23437641E3219DC66 /* Pods-Jing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jing/Pods-Jing.debug.xcconfig"; sourceTree = "<group>"; };
 		AE9FE4824849C4DB0B7EC8E1 /* Pods-Jing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jing/Pods-Jing.release.xcconfig"; sourceTree = "<group>"; };
 		D4F526F59E74C7548479FF74 /* Pods_Jing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41FDD731F00F03400F09572 /* introductoryPage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = introductoryPage.bundle; sourceTree = "<group>"; };
+		F41FDD751F00FC4A00F09572 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F41FDD761F00FC4A00F09572 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		F46151111EFA77A4008B964A /* XMLYBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLYBaseRequest.h; sourceTree = "<group>"; };
 		F46151121EFA77A4008B964A /* XMLYBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLYBaseRequest.m; sourceTree = "<group>"; };
 		F46151141EFA77A4008B964A /* XMLYBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLYBaseAPI.h; sourceTree = "<group>"; };
@@ -671,6 +676,7 @@
 				F461518E1EFA77A5008B964A /* Assets.xcassets */,
 				F461518F1EFA77A5008B964A /* cart-product.png */,
 				F46151901EFA77A5008B964A /* cart-product@2x.png */,
+				F41FDD731F00F03400F09572 /* introductoryPage.bundle */,
 				F46151911EFA77A5008B964A /* Loading.bundle */,
 				F46151921EFA77A5008B964A /* messi.png */,
 				F46151931EFA77A5008B964A /* Preview.xcassets */,
@@ -692,6 +698,8 @@
 				F46151B11EFA77A5008B964A /* RunTime */,
 				F46151BC1EFA77A5008B964A /* UseProtocol */,
 				F46151C41EFA77A5008B964A /* WebView */,
+				F41FDD751F00FC4A00F09572 /* Utils.h */,
+				F41FDD761F00FC4A00F09572 /* Utils.m */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -949,6 +957,7 @@
 				F461524F1EFA77A5008B964A /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
 				F46152141EFA77A5008B964A /* SettingViewController.xib in Resources */,
 				F461524A1EFA77A5008B964A /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				F41FDD741F00F03400F09572 /* introductoryPage.bundle in Resources */,
 				F46152011EFA77A5008B964A /* Download.storyboard in Resources */,
 				F46152411EFA77A5008B964A /* SVWebViewController.strings in Resources */,
 				F461524B1EFA77A5008B964A /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
@@ -1076,6 +1085,7 @@
 				F46152531EFA77A5008B964A /* GVUserDefaults.m in Sources */,
 				F461520B1EFA77A5008B964A /* FindSubTitleView.m in Sources */,
 				F46152241EFA77A5008B964A /* MPDelegateCodeStandards.m in Sources */,
+				F41FDD771F00FC4A00F09572 /* Utils.m in Sources */,
 				F46152101EFA77A5008B964A /* KnowledgeController.m in Sources */,
 				F46152371EFA77A5008B964A /* MPThreadViewController.m in Sources */,
 				F461524C1EFA77A5008B964A /* SVWebViewControllerActivityChrome.m in Sources */,

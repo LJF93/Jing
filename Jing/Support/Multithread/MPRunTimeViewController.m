@@ -162,7 +162,7 @@
 {
     unsigned int count;
     Ivar *ivarList = class_copyIvarList([self.myRunTimeTest class], &count);
-    for (unsigned int i; i<count; i++) {
+    for (unsigned int i = 0; i < count; i++) {
         Ivar myIvar = ivarList[i];
         const char *ivarName = ivar_getName(myIvar);
         NSLog(@"成员变量为---->%@", [NSString stringWithUTF8String:ivarName]);

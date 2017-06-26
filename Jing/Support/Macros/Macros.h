@@ -170,7 +170,38 @@ _Pragma("clang diagnostic pop")
 //最大的上传图片张数
 #define kupdateMaximumNumberOfImage 12
 
+// 设备版本号
+#define iPhone2G        @"iPhone2G"
+#define iPhone3G        @"iPhone3G"
+#define iPhone3GS       @"iPhone3GS"
+#define iPhone4         @"iPhone4"
+#define iPhone4S        @"iPhone4S"
+#define iPhone5         @"iPhone5"
+#define iPhone5c        @"iPhone5c"
+#define iPhone5s        @"iPhone5s"
+#define iPhone6         @"iPhone6"
+#define iPhone6Plus     @"iPhone6Plus"
+#define iPhone6s        @"iPhone6s"
+#define iPhone6sPlus    @"iPhone6sPlus"
+#define iPhoneSE        @"iPhoneSE"
+#define iPhone7         @"iPhone7"
+#define iPhone7Plus     @"iPhone7Plus"
 
+//iPod Touch
+#define iPodTouch       @"iPodTouch"
+#define iPodTouch2G     @"iPodTouch2G"
+#define iPodTouch3G     @"iPodTouch3G"
+#define iPodTouch4G     @"iPodTouch4G"
+#define iPodTouch5G     @"iPodTouch5G"
+#define iPodTouch6G     @"iPodTouch6G"
+
+//iPad
+#define iPad     @"iPad"
+#define iPad2     @"iPad2"
+#define iPad3     @"iPad3"
+#define iPad4     @"iPad4"
+
+#define iPhoneSimulator     @"iPhoneSimulator"
 
 
 

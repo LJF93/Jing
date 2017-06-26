@@ -62,6 +62,7 @@
         [_timer invalidate];
         _timer = nil;
     }
+    [super viewDidDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -423,7 +424,7 @@
     animation.path = path;
     animation.duration = 0.8;
     [view.layer addAnimation:animation forKey:@"move"];
-
+    CFRelease(path);
 }
 
 - (NSArray *)animationImages {

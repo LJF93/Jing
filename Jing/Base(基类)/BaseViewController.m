@@ -72,7 +72,7 @@
     self.navigationController.navigationBar.translucent = NO;
 
     if ([self respondsToSelector:@selector(set_colorBackground)]) {
-        UIColor *backgroundColor =  [self set_colorBackground];
+//        UIColor *backgroundColor =  [self set_colorBackground];
 //        UIImage *bgimage = [UIImage imageWithColor:backgroundColor];
 
 //        [self.navigationController.navigationBar setBackgroundImage:bgimage forBarMetrics:UIBarMetricsDefault];

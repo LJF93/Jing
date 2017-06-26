@@ -7,6 +7,7 @@
 //
 
 #import "IntroductoryPageView.h"
+#import "Utils.h"
 
 @interface IntroductoryPageView() <UIScrollViewDelegate>
 
@@ -45,11 +46,21 @@
 
     _scrollView = scrollView;
 
+//    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"introductoryPage" ofType:@"bundle"];
+//    NSArray *arrays = [fileManager contentsOfDirectoryAtPath:path error:nil];
+
+    NSString *imagePath = @"";
     for (int i = 0; i < _imageArray.count; i++) {
         UIImageView *imageView = [[UIImageView alloc] init];
-        imageView.frame = CGRectMake(i*Main_Screen_Width, 0, Main_Screen_Width, Main_Screen_Height);
+        imageView.frame = CGRectMake(i * Main_Screen_Width, 0, Main_Screen_Width, Main_Screen_Height);
+        if ([self is3xImage]) {
+            imagePath = [path stringByAppendingFormat:@"/%@@3x.png", _imageArray[i]];
+        }
+        else
+            imagePath = [path stringByAppendingFormat:@"/%@@2x.png", _imageArray[i]];
 
-        UIImage *image = [UIImage imageNamed:_imageArray[i]];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
         imageView.image = image;
 
         [scrollView addSubview:imageView];
@@ -74,6 +85,17 @@
     }
 }
 
+- (BOOL)is3xImage {
+    NSString *mobile = [Utils getCurrentDeviceModel];
+    if ([mobile isEqualToString:iPhone6Plus] ||
+        [mobile isEqualToString:iPhone6sPlus] ||
+        [mobile isEqualToString:iPhone7Plus]) {
+        return YES;
+    }
+    return NO;
+}
+
+#pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if (scrollView == _scrollView) {
         CGPoint offset = scrollView.contentOffset;
