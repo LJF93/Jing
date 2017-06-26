@@ -10,5 +10,6 @@ target 'Jing' do
     pod 'Reachability'
     pod 'MBProgressHUD'
     pod 'Masonry'
+    pod 'MJExtension'
 
 end
