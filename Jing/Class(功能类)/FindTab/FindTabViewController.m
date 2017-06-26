@@ -58,7 +58,7 @@
 
 - (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController {
     NSInteger index = [self indexForViewController:viewController];
-    if (index > self.controllers.count-1 || index == NSNotFound) {
+    if (index == self.controllers.count-1 || index == NSNotFound) {
         return nil;
     }
     return [self.controllers objectAtIndex:index + 1];
