@@ -55,7 +55,6 @@
     person = [[Person alloc] init];
     person.chineseName = @"xiaoming";
     NSLog(@"Person first name is %@",person.chineseName);
-
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
@@ -69,7 +68,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 /**
  运行，发现定时器还是没有停止。原因是Timer被添加到Runloop的时候，会被Runloop强引用了。
@@ -86,6 +84,7 @@
     NSLog(@"%@ dealloc", NSStringFromClass([self class]));
 }
 
+#pragma mark - Private Method
 - (void)contentView {
     graphicsView = [[GraphicsView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 120)];
 
@@ -100,6 +99,10 @@
 
     UIImage *myImage = [UIImage imageNamed:@"messi.png"];
     [self.myImageView setImage:[self imageCompressWithSimple:myImage scale:1.0]];
+    self.myImageView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(saveImageToAlbum)];
+//    [self.myImageView performSelector:@selector(setMyImage) withObject:nil afterDelay:2.f inModes:@[NSDefaultRunLoopMode]];
+    [self.myImageView addGestureRecognizer:tap];
 
     // 模拟加载一组图片实现Gif动态图显示。
     UIImageView *gifImageView = [[UIImageView alloc] initWithFrame:CGRectMake(140, 230, 60, 60)];
@@ -111,6 +114,29 @@
     [self.scrollView addSubview:gifImageView];
     [self.scrollView addSubview:graphicsView];
     //    [scrollView addSubview:textView];
+}
+
+/**
+ 把一个View生成一张图片，保存到本地相簿中。
+ */
+- (void)saveImageToAlbum {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        // self.myImageView:要生成为图片的view
+        UIGraphicsBeginImageContextWithOptions(self.myImageView.bounds.size, 0, [[UIScreen mainScreen] scale]);
+        [self.myImageView.layer renderInContext:UIGraphicsGetCurrentContext()];
+        UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        UIImageWriteToSavedPhotosAlbum(viewImage, self, @selector(imageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:), nil);
+    });
+}
+
+- (void)imageSavedToPhotosAlbum:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
+    if (!error) {
+        NSLog(@"成功");
+    }
+    else {
+        NSLog(@"失败 - %@",error);
+    }
 }
 
 #pragma mark - NSKeyValueObserving
