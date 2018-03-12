@@ -1,10 +1,3 @@
-//
-//  MPThreadViewController.m
-//  MobileProject
-//
-//  Created by wujunyang on 2017/2/16.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "MPThreadViewController.h"
 
@@ -36,8 +29,7 @@
 }
 
 //一：简单创建一个多线程
--(void)addThreadAction
-{
+- (void)addThreadAction {
     NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(runAction) object:nil];
     thread.name=@"thread-wujy";
     [thread start];
@@ -49,8 +41,7 @@
 //     [self performSelectorInBackground:@selector(runAction) withObject:nil];
 }
 
--(void)runAction
-{
+- (void)runAction {
     //阻塞（暂停）10秒后执行再下面内容
     [NSThread sleepForTimeInterval:10]; //单位是秒
     
@@ -65,10 +56,8 @@
 //***注意：当调用[thread start];后，系统把线程对象放入可调度线程池中，线程对象进入就绪状态，如果没有其它再运行就可以马上执行，如果有其它再跑则要等待，所以启动线程它并不一定会马上执行；***
 
 
-
 //二：测试增加一定数量对CPU的影响
--(void)addMutableThread
-{
+- (void)addMutableThread {
     //CPU 160%左右  内存150MB左右 平时80MB  这样写在主线程上创建100000多条thread导致卡住
 //        for (int num=0; num<100000; num++) {
 //            NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(runMutableAction) object:nil];
@@ -82,8 +71,7 @@
     [thread start];
 }
 
--(void)runMutableThreadAction
-{
+- (void)runMutableThreadAction {
     for (int num=0; num<100000; num++) {
         NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(runMutableAction:) object:nil];
         thread.name=[NSString stringWithFormat:@"thread-%d",num];
@@ -91,15 +79,12 @@
     }
 }
 
--(void)runMutableAction:(id)sender
-{
+- (void)runMutableAction:(id)sender {
     NSLog(@"MutableThread-当前线程为：%@",[NSThread currentThread]);
 }
 
-
 //三：强制退出线程
--(void)ExitThread
-{
+- (void)ExitThread {
     if (!self.myThread) {
         self.myThread=[[NSThread alloc]initWithTarget:self selector:@selector(runExitAction) object:nil];
         self.myThread.name=@"thread-exit";
@@ -107,8 +92,7 @@
     [self.myThread start];
 }
 
--(void)runExitAction
-{
+- (void)runExitAction {
     //阻塞（暂停）10秒后执行再下面内容
     [NSThread sleepForTimeInterval:10]; //单位是秒
     
@@ -121,8 +105,7 @@
     NSLog(@"当前thread-exit线程为：%@",[NSThread currentThread]);
 }
 
--(void)viewWillDisappear:(BOOL)animated
-{
+- (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     //结合VC生命周期 viewWillDisappear退出页面时就把线程标识为cancel
     if (self.myThread && ![self.myThread isCancelled]) {
@@ -144,19 +127,15 @@
     //这页会报内存问题，是因为上面还有一些Thread没有进行退出操作
 }
 
-
 //四：用一个数组存储多条线程
--(void)addArrayThtead
-{
+- (void)addArrayThtead {
     if (!self.myThreadList) {
         self.myThreadList=[[NSMutableArray alloc]init];
     }
     
     [self.myThreadList removeAllObjects];
     
-    
-    for(int i=0; i<10;i++)
-    {
+    for(int i=0; i<10;i++) {
         NSThread *thread=[[NSThread alloc]initWithTarget:self selector:@selector(loadAction:) object:[NSNumber numberWithInt:i]];
         thread.name=[NSString stringWithFormat:@"myThread%i",i];
         
@@ -169,8 +148,7 @@
     }
 }
 
--(void)loadAction:(NSNumber *)index
-{
+- (void)loadAction:(NSNumber *)index {
     NSThread *thread=[NSThread currentThread];
     NSLog(@"loadAction是在线程%@中执行",thread.name);
     
@@ -178,8 +156,7 @@
     [self performSelectorOnMainThread:@selector(updateImage) withObject:nil waitUntilDone:YES];
 }
 
--(void)updateImage
-{
+- (void)updateImage {
     NSLog(@"执行完成了");
     NSLog(@"执行方法updateImage是在%@线程中",[NSThread isMainThread]?@"主":@"子");
     //输出：执行方法updateImage是在主线程中

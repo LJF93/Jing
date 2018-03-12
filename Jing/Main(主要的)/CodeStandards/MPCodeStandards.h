@@ -2,7 +2,7 @@
 //  MPCodeStandards.h
 //  MobileProject  代码规划写法
 //
-//MPCodeStandards *codeStandards=[[MPCodeStandards alloc]initWithUserName:@"wujunyang" andAge:2];
+//MPCodeStandards *codeStandards=[[MPCodeStandards alloc]initWithUserName:@"TWY" andAge:2];
 //[codeStandards addWork:@"编程"];
 //[codeStandards addWork:@"洗碗"];
 //NSLog(@"当前名字：%@",codeStandards.userName);
@@ -17,12 +17,6 @@
 //}
 //NSLog(@"当前信息：%@",twoCodeStandards);
 //
-//
-//  Created by wujunyang on 2017/2/22.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
-
-
 
 #import <Foundation/Foundation.h>
 

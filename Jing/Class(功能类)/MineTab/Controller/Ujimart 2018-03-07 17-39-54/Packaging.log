@@ -1,0 +1,2438 @@
+2018-03-07 09:38:57 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc89d11b090; archive(resolved)='<IDEArchive: 0x7fc896ec1e40>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team(resolved)='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc89d11b090; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc89b4f61b0; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc8980fb490; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc8935e7520; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89e7a9e10; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89e953090; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89e938910; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89e943e90; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89c80d7f0; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='<IDEProvisioningBasicTeam 0x7fc896a8f090: teamID: 9NVUT96JB4, teamName: Sanvio.net Limited>'>
+	<IDEDistributionContext: 0x7fc89d1562f0; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fc8952e5090>', team='(null)'>
+	<IDEDistributionContext: 0x7fc89d275a60; archive = '<IDEArchive: 0x7fc896ec1e40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc89d11b090>
+2018-03-07 09:38:57 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-03-07 09:38:57 +0000  Processing step: IDEDistributionCopyItemStep
+2018-03-07 09:38:57 +0000  Running /usr/bin/ditto '-V' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app'
+2018-03-07 09:38:57 +0000  >>> Copying /Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app 
+2018-03-07 09:38:57 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-03-07 09:38:57 +0000  88562 bytes for ./_CodeSignature/CodeResources
+2018-03-07 09:38:57 +0000  copying file ./AlipaySDK.bundle/bar@2x.png ... 
+2018-03-07 09:38:57 +0000  1011 bytes for ./AlipaySDK.bundle/bar@2x.png
+2018-03-07 09:38:57 +0000  copying file ./AlipaySDK.bundle/refresh@2x.png ... 
+2018-03-07 09:38:57 +0000  605 bytes for ./AlipaySDK.bundle/refresh@2x.png
+copying file ./AlipaySDK.bundle/refresh_click@2x.png ... 
+2018-03-07 09:38:57 +0000  1824 bytes for ./AlipaySDK.bundle/refresh_click@2x.png
+copying file ./AlipaySDK.bundle/shutdown@2x.png ... 
+2018-03-07 09:38:57 +0000  222 bytes for ./AlipaySDK.bundle/shutdown@2x.png
+2018-03-07 09:38:57 +0000  copying file ./AlipaySDK.bundle/shutdown_click@2x.png ... 
+1319 bytes for ./AlipaySDK.bundle/shutdown_click@2x.png
+copying file ./AppIcon20x20@2x.png ... 
+2018-03-07 09:38:57 +0000  19769 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@3x.png ... 
+2018-03-07 09:38:57 +0000  4727 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon29x29.png ... 
+2018-03-07 09:38:57 +0000  18746 bytes for ./AppIcon29x29.png
+copying file ./AppIcon29x29@2x.png ... 
+4851 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2018-03-07 09:38:57 +0000  5632 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon40x40@2x.png ... 
+2018-03-07 09:38:57 +0000  5485 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+2018-03-07 09:38:57 +0000  19680 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon57x57.png ... 
+2018-03-07 09:38:57 +0000  18955 bytes for ./AppIcon57x57.png
+copying file ./AppIcon57x57@2x.png ... 
+19723 bytes for ./AppIcon57x57@2x.png
+copying file ./AppIcon60x60@2x.png ... 
+2018-03-07 09:38:57 +0000  19680 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-03-07 09:38:57 +0000  19911 bytes for ./AppIcon60x60@3x.png
+2018-03-07 09:38:57 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-03-07 09:38:57 +0000  246 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-03-07 09:38:57 +0000  3698280 bytes for ./Assets.car
+2018-03-07 09:38:57 +0000  copying file ./blackArrow.png ... 
+3799 bytes for ./blackArrow.png
+copying file ./blackArrow@2x.png ... 
+593 bytes for ./blackArrow@2x.png
+copying file ./blueArrow.png ... 
+4175 bytes for ./blueArrow.png
+copying file ./blueArrow@2x.png ... 
+894 bytes for ./blueArrow@2x.png
+copying file ./blueLedBig.png ... 
+3050 bytes for ./blueLedBig.png
+copying file ./blueLedBig@2x.png ... 
+2994 bytes for ./blueLedBig@2x.png
+copying file ./blueLedBigOff.png ... 
+325 bytes for ./blueLedBigOff.png
+copying file ./blueLedSmall.png ... 
+2978 bytes for ./blueLedSmall.png
+copying file ./blueLedSmall@2x.png ... 
+2969 bytes for ./blueLedSmall@2x.png
+copying file ./blueLedSmallOff.png ... 
+272 bytes for ./blueLedSmallOff.png
+copying file ./blueLedSmallOff@2x.png ... 
+487 bytes for ./blueLedSmallOff@2x.png
+copying file ./BuildingCell.nib ... 
+2781 bytes for ./BuildingCell.nib
+copying file ./BuildingSearchVC.nib/objects-11.0+.nib ... 
+2018-03-07 09:38:57 +0000  5349 bytes for ./BuildingSearchVC.nib/objects-11.0+.nib
+copying file ./BuildingSearchVC.nib/runtime.nib ... 
+2018-03-07 09:38:57 +0000  5480 bytes for ./BuildingSearchVC.nib/runtime.nib
+2018-03-07 09:38:57 +0000  copying file ./CartPayingController.nib ... 
+2018-03-07 09:38:57 +0000  1794 bytes for ./CartPayingController.nib
+copying file ./config.plist ... 
+2018-03-07 09:38:57 +0000  1104 bytes for ./config.plist
+copying file ./ContactCell.nib ... 
+2018-03-07 09:38:57 +0000  5849 bytes for ./ContactCell.nib
+copying file ./disclosure.png ... 
+2018-03-07 09:38:57 +0000  3151 bytes for ./disclosure.png
+copying file ./disclosure@2x.png ... 
+2018-03-07 09:38:57 +0000  3356 bytes for ./disclosure@2x.png
+copying file ./embedded.mobileprovision ... 
+2018-03-07 09:38:57 +0000  23395 bytes for ./embedded.mobileprovision
+copying file ./eng.plist ... 
+2018-03-07 09:38:57 +0000  19520 bytes for ./eng.plist
+2018-03-07 09:38:57 +0000  copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-03-07 09:38:57 +0000  2202 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2018-03-07 09:38:57 +0000  copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-03-07 09:38:57 +0000  2749152 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+2018-03-07 09:38:57 +0000  743 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+copying file ./Frameworks/FMDB.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/FMDB.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/FMDB.framework/FMDB ... 
+1011088 bytes for ./Frameworks/FMDB.framework/FMDB
+copying file ./Frameworks/FMDB.framework/Info.plist ... 
+727 bytes for ./Frameworks/FMDB.framework/Info.plist
+copying file ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+544096 bytes for ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+copying file ./Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+759 bytes for ./Frameworks/GoogleToolboxForMac.framework/Info.plist
+copying file ./Frameworks/JPFPSStatus.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/JPFPSStatus.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/JPFPSStatus.framework/Info.plist ... 
+741 bytes for ./Frameworks/JPFPSStatus.framework/Info.plist
+copying file ./Frameworks/JPFPSStatus.framework/JPFPSStatus ... 
+377936 bytes for ./Frameworks/JPFPSStatus.framework/JPFPSStatus
+copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+745 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+798304 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+copying file ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MJExtension.framework/Info.plist ... 
+742 bytes for ./Frameworks/MJExtension.framework/Info.plist
+copying file ./Frameworks/MJExtension.framework/MJExtension ... 
+916688 bytes for ./Frameworks/MJExtension.framework/MJExtension
+copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+731 bytes for ./Frameworks/nanopb.framework/Info.plist
+copying file ./Frameworks/nanopb.framework/nanopb ... 
+446400 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Protobuf.framework/Info.plist ... 
+735 bytes for ./Frameworks/Protobuf.framework/Info.plist
+copying file ./Frameworks/Protobuf.framework/Protobuf ... 
+5326432 bytes for ./Frameworks/Protobuf.framework/Protobuf
+copying file ./Frameworks/SDAutoLayout.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SDAutoLayout.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SDAutoLayout.framework/Info.plist ... 
+743 bytes for ./Frameworks/SDAutoLayout.framework/Info.plist
+copying file ./Frameworks/SDAutoLayout.framework/SDAutoLayout ... 
+1272608 bytes for ./Frameworks/SDAutoLayout.framework/SDAutoLayout
+copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+739 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2110608 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/bubble_left.png ... 
+2018-03-07 09:38:57 +0000  451 bytes for ./GoogleMaps.bundle/bubble_left.png
+copying file ./GoogleMaps.bundle/bubble_left@2x.png ... 
+2018-03-07 09:38:57 +0000  1055 bytes for ./GoogleMaps.bundle/bubble_left@2x.png
+copying file ./GoogleMaps.bundle/bubble_left@3x.png ... 
+2018-03-07 09:38:57 +0000  2386 bytes for ./GoogleMaps.bundle/bubble_left@3x.png
+copying file ./GoogleMaps.bundle/bubble_right.png ... 
+2018-03-07 09:38:57 +0000  455 bytes for ./GoogleMaps.bundle/bubble_right.png
+copying file ./GoogleMaps.bundle/bubble_right@2x.png ... 
+2018-03-07 09:38:57 +0000  1051 bytes for ./GoogleMaps.bundle/bubble_right@2x.png
+copying file ./GoogleMaps.bundle/bubble_right@3x.png ... 
+2018-03-07 09:38:57 +0000  2374 bytes for ./GoogleMaps.bundle/bubble_right@3x.png
+copying file ./GoogleMaps.bundle/default_marker.png ... 
+2018-03-07 09:38:57 +0000  1221 bytes for ./GoogleMaps.bundle/default_marker.png
+copying file ./GoogleMaps.bundle/default_marker@2x.png ... 
+2018-03-07 09:38:57 +0000  2531 bytes for ./GoogleMaps.bundle/default_marker@2x.png
+copying file ./GoogleMaps.bundle/default_marker@3x.png ... 
+2018-03-07 09:38:57 +0000  6988 bytes for ./GoogleMaps.bundle/default_marker@3x.png
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom ... 
+2018-03-07 09:38:57 +0000  4576 bytes for ./GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom
+copying file ./GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom ... 
+2018-03-07 09:38:57 +0000  4682 bytes for ./GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.omo ... 
+2018-03-07 09:38:57 +0000  10296 bytes for ./GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.omo
+copying file ./GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist ... 
+2018-03-07 09:38:57 +0000  807 bytes for ./GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings ... 
+2018-03-07 09:38:57 +0000  992 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car ... 
+2018-03-07 09:38:57 +0000  46179 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png ... 
+2018-03-07 09:38:57 +0000  334 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png ... 
+2018-03-07 09:38:57 +0000  433 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png ... 
+2018-03-07 09:38:57 +0000  515 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png ... 
+2018-03-07 09:38:57 +0000  631 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png ... 
+2018-03-07 09:38:57 +0000  2560 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png ... 
+720 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png ... 
+2018-03-07 09:38:57 +0000  2221 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png ... 
+2018-03-07 09:38:57 +0000  492 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png ... 
+2018-03-07 09:38:57 +0000  1229 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings ... 
+2018-03-07 09:38:57 +0000  1014 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings ... 
+2018-03-07 09:38:57 +0000  940 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings ... 
+2018-03-07 09:38:57 +0000  924 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png ... 
+2018-03-07 09:38:57 +0000  315 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings ... 
+2018-03-07 09:38:57 +0000  849 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf ... 
+2018-03-07 09:38:57 +0000  392092 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf
+2018-03-07 09:38:57 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings ... 
+996 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings ... 
+801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings ... 
+801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  1019 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  1016 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  1016 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  881 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings ... 
+1038 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  908 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png ... 
+3393 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png ... 
+2018-03-07 09:38:58 +0000  7660 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png ... 
+2018-03-07 09:38:58 +0000  12519 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png ... 
+2018-03-07 09:38:58 +0000  3246 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png ... 
+2018-03-07 09:38:58 +0000  7465 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png ... 
+2018-03-07 09:38:58 +0000  10683 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png ... 
+2018-03-07 09:38:58 +0000  10365 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png ... 
+2018-03-07 09:38:58 +0000  25169 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png ... 
+2018-03-07 09:38:58 +0000  42326 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  930 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  994 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  909 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  996 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png ... 
+2018-03-07 09:38:58 +0000  483 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png ... 
+2018-03-07 09:38:58 +0000  992 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large.png ... 
+2018-03-07 09:38:58 +0000  1114 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@2x.png ... 
+2018-03-07 09:38:58 +0000  2446 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@3x.png ... 
+2018-03-07 09:38:58 +0000  3304 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off.png ... 
+2018-03-07 09:38:58 +0000  498 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@2x.png ... 
+2018-03-07 09:38:58 +0000  860 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@3x.png ... 
+2018-03-07 09:38:58 +0000  1577 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png ... 
+2018-03-07 09:38:58 +0000  362 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png ... 
+2018-03-07 09:38:58 +0000  663 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png ... 
+2018-03-07 09:38:58 +0000  1240 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  816 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist ... 
+2018-03-07 09:38:58 +0000  510 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings ... 
+876 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/iw.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  930 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/iw.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings ... 
+776 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings ... 
+814 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/lt.lproj/GMSCore.strings ... 
+801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/lt.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/lv.lproj/GMSCore.strings ... 
+801 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/lv.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings ... 
+821 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings ... 
+841 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings ... 
+865 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings ... 
+841 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings ... 
+897 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png ... 
+2018-03-07 09:38:58 +0000  6982 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png ... 
+2018-03-07 09:38:58 +0000  7026 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  948 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  948 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  992 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings ... 
+985 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png ... 
+2018-03-07 09:38:58 +0000  95 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png ... 
+2018-03-07 09:38:58 +0000  1029 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png ... 
+2018-03-07 09:38:58 +0000  127 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png ... 
+2018-03-07 09:38:58 +0000  84 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png ... 
+2018-03-07 09:38:58 +0000  1934 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png ... 
+223 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png ... 
+2018-03-07 09:38:58 +0000  74 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png ... 
+2018-03-07 09:38:58 +0000  425 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png ... 
+2018-03-07 09:38:58 +0000  93 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  1066 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  904 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  893 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  896 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf ... 
+2018-03-07 09:38:58 +0000  353228 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings ... 
+944 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png ... 
+210 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale1.png ... 
+342 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale1.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale2.png ... 
+382 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale2.png
+copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png ... 
+2018-03-07 09:38:58 +0000  243 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  982 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  995 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  748 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings ... 
+738 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings ... 
+2018-03-07 09:38:58 +0000  754 bytes for ./GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings
+2018-03-07 09:38:58 +0000  copying file ./GoogleMaps.bundle/Info.plist ... 
+2018-03-07 09:38:58 +0000  499 bytes for ./GoogleMaps.bundle/Info.plist
+copying file ./GoogleMaps.bundle/oss_licenses_maps.txt.gz ... 
+2018-03-07 09:38:58 +0000  22555 bytes for ./GoogleMaps.bundle/oss_licenses_maps.txt.gz
+2018-03-07 09:38:58 +0000  copying file ./GoogleService-Info.plist ... 
+871 bytes for ./GoogleService-Info.plist
+2018-03-07 09:38:58 +0000  copying file ./grayArrow.png ... 
+2018-03-07 09:38:58 +0000  1077 bytes for ./grayArrow.png
+copying file ./grayArrow@2x.png ... 
+2018-03-07 09:38:58 +0000  1737 bytes for ./grayArrow@2x.png
+copying file ./Info.plist ... 
+2018-03-07 09:38:58 +0000  2869 bytes for ./Info.plist
+copying file ./LaunchImage-1100-Portrait-2436h@3x.png ... 
+2018-03-07 09:38:58 +0000  44471 bytes for ./LaunchImage-1100-Portrait-2436h@3x.png
+copying file ./LaunchImage-700-568h@2x.png ... 
+2018-03-07 09:38:58 +0000  29597 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./LaunchImage-700@2x.png ... 
+2018-03-07 09:38:58 +0000  29363 bytes for ./LaunchImage-700@2x.png
+copying file ./LaunchImage-800-667h@2x.png ... 
+2018-03-07 09:38:58 +0000  31918 bytes for ./LaunchImage-800-667h@2x.png
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2018-03-07 09:38:58 +0000  47270 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+copying file ./map_backgroup.png ... 
+12116 bytes for ./map_backgroup.png
+copying file ./MapViewController.nib ... 
+2018-03-07 09:38:58 +0000  3142 bytes for ./MapViewController.nib
+copying file ./MenuFooterView.nib ... 
+2018-03-07 09:38:58 +0000  6235 bytes for ./MenuFooterView.nib
+copying file ./MineQRCodeViewController.nib ... 
+2018-03-07 09:38:58 +0000  974 bytes for ./MineQRCodeViewController.nib
+copying file ./OrderProductCell.nib ... 
+2018-03-07 09:38:58 +0000  1171 bytes for ./OrderProductCell.nib
+copying file ./PkgInfo ... 
+2018-03-07 09:38:58 +0000  8 bytes for ./PkgInfo
+copying file ./Reg_Captcha_Controller.nib ... 
+2018-03-07 09:38:58 +0000  7213 bytes for ./Reg_Captcha_Controller.nib
+copying file ./Reg_FB_LastViewController.nib ... 
+2018-03-07 09:38:58 +0000  7686 bytes for ./Reg_FB_LastViewController.nib
+copying file ./Reg_Finish_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  3508 bytes for ./Reg_Finish_ViewController.nib
+copying file ./Reg_InputLast_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  7691 bytes for ./Reg_InputLast_ViewController.nib
+2018-03-07 09:38:58 +0000  copying file ./Reg_InputName_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  6106 bytes for ./Reg_InputName_ViewController.nib
+copying file ./Reg_InputPWD_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  6680 bytes for ./Reg_InputPWD_ViewController.nib
+copying file ./Reg_InputTel_FB_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  7448 bytes for ./Reg_InputTel_FB_ViewController.nib
+2018-03-07 09:38:58 +0000  copying file ./Reg_InputTel_ViewController.nib ... 
+2018-03-07 09:38:58 +0000  7610 bytes for ./Reg_InputTel_ViewController.nib
+2018-03-07 09:38:58 +0000  copying file ./SDGroupCell.nib ... 
+2018-03-07 09:38:58 +0000  4299 bytes for ./SDGroupCell.nib
+copying file ./SDNestedTableView.nib ... 
+2018-03-07 09:38:58 +0000  1510 bytes for ./SDNestedTableView.nib
+copying file ./SDSubCell.nib ... 
+2018-03-07 09:38:58 +0000  2943 bytes for ./SDSubCell.nib
+2018-03-07 09:38:58 +0000  copying file ./SGQRCode.bundle/en.lproj/Root.strings ... 
+2018-03-07 09:38:58 +0000  546 bytes for ./SGQRCode.bundle/en.lproj/Root.strings
+copying file ./SGQRCode.bundle/QRCodeScanningLine@2x.png ... 
+2018-03-07 09:38:58 +0000  2231 bytes for ./SGQRCode.bundle/QRCodeScanningLine@2x.png
+copying file ./SGQRCode.bundle/QRCodeScanningLine@3x.png ... 
+2018-03-07 09:38:58 +0000  3891 bytes for ./SGQRCode.bundle/QRCodeScanningLine@3x.png
+copying file ./SGQRCode.bundle/QRCodeScanningLineGrid@2x.png ... 
+2018-03-07 09:38:58 +0000  7999 bytes for ./SGQRCode.bundle/QRCodeScanningLineGrid@2x.png
+copying file ./SGQRCode.bundle/QRCodeScanningLineGrid@3x.png ... 
+2018-03-07 09:38:58 +0000  14817 bytes for ./SGQRCode.bundle/QRCodeScanningLineGrid@3x.png
+copying file ./SGQRCode.bundle/Root.plist ... 
+2018-03-07 09:38:58 +0000  1456 bytes for ./SGQRCode.bundle/Root.plist
+copying file ./SGQRCode.bundle/SGQRCodeFlashlightCloseImage@2x.png ... 
+2018-03-07 09:38:58 +0000  6858 bytes for ./SGQRCode.bundle/SGQRCodeFlashlightCloseImage@2x.png
+copying file ./SGQRCode.bundle/SGQRCodeFlashlightOpenImage@2x.png ... 
+2018-03-07 09:38:58 +0000  5310 bytes for ./SGQRCode.bundle/SGQRCodeFlashlightOpenImage@2x.png
+copying file ./SGQRCode.bundle/sound.caf ... 
+2018-03-07 09:38:58 +0000  129556 bytes for ./SGQRCode.bundle/sound.caf
+2018-03-07 09:38:58 +0000  copying file ./store6.db ... 
+2018-03-07 09:38:58 +0000  102400 bytes for ./store6.db
+copying file ./TSAlertViewBackground.png ... 
+2018-03-07 09:38:58 +0000  2789 bytes for ./TSAlertViewBackground.png
+copying file ./TSAlertViewBackground2.png ... 
+6480 bytes for ./TSAlertViewBackground2.png
+copying file ./TSAlertViewBackground2_7.png ... 
+2018-03-07 09:38:58 +0000  3035 bytes for ./TSAlertViewBackground2_7.png
+copying file ./TSAlertViewBackground_7.png ... 
+2018-03-07 09:38:58 +0000  3035 bytes for ./TSAlertViewBackground_7.png
+copying file ./TSAlertViewButtonBackground.png ... 
+2018-03-07 09:38:58 +0000  535 bytes for ./TSAlertViewButtonBackground.png
+copying file ./TSAlertViewButtonBackground_7.png ... 
+3311 bytes for ./TSAlertViewButtonBackground_7.png
+copying file ./TSAlertViewButtonBackground_Highlighted.png ... 
+2018-03-07 09:38:58 +0000  577 bytes for ./TSAlertViewButtonBackground_Highlighted.png
+copying file ./TSAlertViewButtonBackground_Highlighted_7.png ... 
+2018-03-07 09:38:58 +0000  2808 bytes for ./TSAlertViewButtonBackground_Highlighted_7.png
+copying file ./TSAlertViewCancelButtonBackground.png ... 
+504 bytes for ./TSAlertViewCancelButtonBackground.png
+copying file ./TSAlertViewMessageListViewShadow.png ... 
+249 bytes for ./TSAlertViewMessageListViewShadow.png
+copying file ./tw.plist ... 
+16061 bytes for ./tw.plist
+copying file ./Ujimart ... 
+2018-03-07 09:38:58 +0000  22753440 bytes for ./Ujimart
+copying file ./VersionVC.nib ... 
+2018-03-07 09:38:58 +0000  4115 bytes for ./VersionVC.nib
+2018-03-07 09:38:58 +0000  copying file ./VideoCell.nib ... 
+2018-03-07 09:38:58 +0000  6600 bytes for ./VideoCell.nib
+copying file ./View.nib ... 
+2018-03-07 09:38:58 +0000  2895 bytes for ./View.nib
+copying file ./whiteArrow.png ... 
+2018-03-07 09:38:58 +0000  4011 bytes for ./whiteArrow.png
+2018-03-07 09:38:58 +0000  copying file ./whiteArrow@2x.png ... 
+2018-03-07 09:38:58 +0000  869 bytes for ./whiteArrow@2x.png
+copying file ./zbar-back.png ... 
+2018-03-07 09:38:58 +0000  319 bytes for ./zbar-back.png
+copying file ./zbar-help.html ... 
+2018-03-07 09:38:58 +0000  3383 bytes for ./zbar-help.html
+2018-03-07 09:38:58 +0000  copying file ./zbar-helpicons.png ... 
+2018-03-07 09:38:58 +0000  22384 bytes for ./zbar-helpicons.png
+copying file ./zbar-samples.png ... 
+2018-03-07 09:38:58 +0000  1312 bytes for ./zbar-samples.png
+2018-03-07 09:38:58 +0000  
+2018-03-07 09:38:58 +0000  
+2018-03-07 09:38:58 +0000  /usr/bin/ditto exited with 0
+2018-03-07 09:38:58 +0000  
+2018-03-07 09:38:58 +0000  
+2018-03-07 09:38:58 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89e993f00 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fc89e1775c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/AFNetworking.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89ce8c760 'org.cocoapods.FMDB' '<DVTFilePath:0x7fc88fdb4180:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/FMDB.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89848cdb0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fc893459e70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89301e280 'org.cocoapods.JPFPSStatus' '<DVTFilePath:0x7fc897da91c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/JPFPSStatus.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc897cb9370 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fc89b5f4b30:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MBProgressHUD.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc8980d96b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fc89e4dd420:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MJExtension.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89b644fa0 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fc89b5db7d0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/Protobuf.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89e6c9d40 'org.cocoapods.SDAutoLayout' '<DVTFilePath:0x7fc89cbb7de0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDAutoLayout.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc897b98100 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fc8951abe70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDWebImage.framework'>'>
+2018-03-07 09:38:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc89b389140 'org.cocoapods.nanopb' '<DVTFilePath:0x7fc89a83ed50:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/nanopb.framework'>'>
+2018-03-07 09:38:58 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-03-07 09:38:58 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-03-07 09:38:58 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-03-07 09:38:58 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-03-07 09:38:58 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-03-07 09:38:58 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-03-07 09:38:59 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-03-07 09:38:59 +0000  Processing step: IDEDistributionSymbolsStep
+2018-03-07 09:38:59 +0000  Processing symbols for AFNetworking.framework
+2018-03-07 09:38:59 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/AFNetworking.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:38:59 +0000  building file list ... 
+2018-03-07 09:38:59 +0000   0 files...2018-03-07 09:38:59 +0000  5 files to consider
+2018-03-07 09:38:59 +0000  AFNetworking.framework/
+2018-03-07 09:38:59 +0000  AFNetworking.framework/_CodeSignature/
+2018-03-07 09:38:59 +0000  
+sent 234 bytes  received 32 bytes  532.00 bytes/sec
+total size is 981.06K  speedup is 3776.70
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  2018-03-07 09:38:59 +0000  
+
+2018-03-07 09:38:59 +0000  /usr/bin/rsync exited with 02018-03-07 09:38:59 +0000  
+
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:38:59 +0000  building file list ... 
+2018-03-07 09:38:59 +0000   0 files...2018-03-07 09:38:59 +0000  67 files to consider
+2018-03-07 09:38:59 +0000  ./
+2018-03-07 09:38:59 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:38:59 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+2018-03-07 09:38:59 +0000  Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+2018-03-07 09:38:59 +0000  nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:38:59 +0000  
+sent 2.12K bytes  received 290 bytes  4.81K bytes/sec
+total size is 40.27M  speedup is 17158.91
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  2018-03-07 09:38:59 +0000  
+
+2018-03-07 09:38:59 +0000  /usr/bin/rsync exited with 0
+2018-03-07 09:38:59 +0000  
+2018-03-07 09:38:59 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking'
+2018-03-07 09:39:00 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking [armv7, 0.133238 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/AFNetworking.framework.dSYM/Contents/Resources/Dwarf/AFNetworking [arm64, 0.133238 seconds]:
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-03-07 09:39:00 +0000  
+
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  Processing symbols for FMDB.framework
+2018-03-07 09:39:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/FMDB.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:00 +0000  building file list ... 
+2018-03-07 09:39:00 +0000   0 files...2018-03-07 09:39:00 +0000  5 files to consider
+2018-03-07 09:39:00 +0000  FMDB.framework/
+2018-03-07 09:39:00 +0000  FMDB.framework/_CodeSignature/
+2018-03-07 09:39:00 +0000  
+sent 218 bytes  received 32 bytes  500.00 bytes/sec
+total size is 366.96K  speedup is 1503.06
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  /usr/bin/rsync exited with 0
+2018-03-07 09:39:00 +0000  
+
+2018-03-07 09:39:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:00 +0000  building file list ... 
+2018-03-07 09:39:00 +0000   0 files...2018-03-07 09:39:00 +0000  67 files to consider
+2018-03-07 09:39:00 +0000  ./
+2018-03-07 09:39:00 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:00 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+2018-03-07 09:39:00 +0000  JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+2018-03-07 09:39:00 +0000  MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+2018-03-07 09:39:00 +0000  Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+2018-03-07 09:39:00 +0000  Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:00 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  
+
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  
+
+2018-03-07 09:39:00 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/FMDB.framework.dSYM/Contents/Resources/Dwarf/FMDB'
+2018-03-07 09:39:00 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/FMDB.framework.dSYM/Contents/Resources/Dwarf/FMDB [armv7, 0.037513 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/FMDB.framework.dSYM/Contents/Resources/Dwarf/FMDB [arm64, 0.037513 seconds]:
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  
+
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  Processing symbols for GoogleToolboxForMac.framework
+2018-03-07 09:39:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:00 +0000  building file list ... 
+2018-03-07 09:39:00 +0000   0 files...2018-03-07 09:39:00 +0000  5 files to consider
+2018-03-07 09:39:00 +0000  GoogleToolboxForMac.framework/
+2018-03-07 09:39:00 +0000  GoogleToolboxForMac.framework/_CodeSignature/
+2018-03-07 09:39:00 +0000  
+sent 248 bytes  received 32 bytes  560.00 bytes/sec
+total size is 233.84K  speedup is 855.20
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  2018-03-07 09:39:00 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:00 +0000  
+2018-03-07 09:39:00 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  67 files to consider
+2018-03-07 09:39:01 +0000  ./
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 02018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac'
+2018-03-07 09:39:01 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac [armv7, 0.054178 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac [arm64, 0.054178 seconds]:
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Processing symbols for JPFPSStatus.framework
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/JPFPSStatus.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  5 files to consider
+2018-03-07 09:39:01 +0000  JPFPSStatus.framework/
+2018-03-07 09:39:01 +0000  JPFPSStatus.framework/_CodeSignature/
+2018-03-07 09:39:01 +0000  
+sent 236 bytes  received 32 bytes  536.00 bytes/sec
+total size is 168.61K  speedup is 644.24
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 02018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  67 files to consider
+2018-03-07 09:39:01 +0000  ./
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+2018-03-07 09:39:01 +0000  Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+2018-03-07 09:39:01 +0000  nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 0
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/JPFPSStatus.framework.dSYM/Contents/Resources/Dwarf/JPFPSStatus'
+2018-03-07 09:39:01 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/JPFPSStatus.framework.dSYM/Contents/Resources/Dwarf/JPFPSStatus [armv7, 0.036542 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/JPFPSStatus.framework.dSYM/Contents/Resources/Dwarf/JPFPSStatus [arm64, 0.036542 seconds]:
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Processing symbols for MBProgressHUD.framework
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MBProgressHUD.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  5 files to consider
+2018-03-07 09:39:01 +0000  MBProgressHUD.framework/
+2018-03-07 09:39:01 +0000  MBProgressHUD.framework/_CodeSignature/
+2018-03-07 09:39:01 +0000  
+sent 240 bytes  received 32 bytes  544.00 bytes/sec
+total size is 304.37K  speedup is 1145.85
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 02018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  67 files to consider
+2018-03-07 09:39:01 +0000  ./
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+2018-03-07 09:39:01 +0000  MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD'
+2018-03-07 09:39:01 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD [armv7, 0.038678 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MBProgressHUD.framework.dSYM/Contents/Resources/Dwarf/MBProgressHUD [arm64, 0.038678 seconds]:
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Processing symbols for MJExtension.framework
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MJExtension.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  5 files to consider
+2018-03-07 09:39:01 +0000  MJExtension.framework/
+2018-03-07 09:39:01 +0000  MJExtension.framework/_CodeSignature/
+2018-03-07 09:39:01 +0000  
+sent 236 bytes  received 32 bytes  536.00 bytes/sec
+total size is 339.11K  speedup is 1295.72
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  67 files to consider
+2018-03-07 09:39:01 +0000  ./
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+2018-03-07 09:39:01 +0000  MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MJExtension.framework.dSYM/Contents/Resources/Dwarf/MJExtension'
+2018-03-07 09:39:01 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MJExtension.framework.dSYM/Contents/Resources/Dwarf/MJExtension [armv7, 0.095440 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/MJExtension.framework.dSYM/Contents/Resources/Dwarf/MJExtension [arm64, 0.095440 seconds]:
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Processing symbols for Protobuf.framework
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/Protobuf.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  5 files to consider
+2018-03-07 09:39:01 +0000  Protobuf.framework/
+2018-03-07 09:39:01 +0000  Protobuf.framework/_CodeSignature/
+2018-03-07 09:39:01 +0000  
+sent 230 bytes  received 32 bytes  524.00 bytes/sec
+total size is 1.90M  speedup is 7604.37
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 02018-03-07 09:39:01 +0000  
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:01 +0000  building file list ... 
+2018-03-07 09:39:01 +0000   0 files...2018-03-07 09:39:01 +0000  67 files to consider
+2018-03-07 09:39:01 +0000  ./
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:01 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:01 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  2018-03-07 09:39:01 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:01 +0000  
+2018-03-07 09:39:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf'
+2018-03-07 09:39:02 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf [armv7, 0.101530 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf [arm64, 0.101530 seconds]:
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Processing symbols for SDAutoLayout.framework
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDAutoLayout.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  5 files to consider
+2018-03-07 09:39:02 +0000  SDAutoLayout.framework/
+2018-03-07 09:39:02 +0000  SDAutoLayout.framework/_CodeSignature/
+2018-03-07 09:39:02 +0000  
+sent 238 bytes  received 32 bytes  540.00 bytes/sec
+total size is 492.58K  speedup is 1868.14
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 02018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  67 files to consider
+2018-03-07 09:39:02 +0000  ./
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDAutoLayout.framework.dSYM/Contents/Resources/Dwarf/SDAutoLayout'
+2018-03-07 09:39:02 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDAutoLayout.framework.dSYM/Contents/Resources/Dwarf/SDAutoLayout [armv7, 0.039814 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDAutoLayout.framework.dSYM/Contents/Resources/Dwarf/SDAutoLayout [arm64, 0.039814 seconds]:
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Processing symbols for SDWebImage.framework
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDWebImage.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  5 files to consider
+2018-03-07 09:39:02 +0000  SDWebImage.framework/
+2018-03-07 09:39:02 +0000  SDWebImage.framework/_CodeSignature/
+2018-03-07 09:39:02 +0000  
+sent 234 bytes  received 32 bytes  532.00 bytes/sec
+total size is 681.90K  speedup is 2625.06
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  67 files to consider
+2018-03-07 09:39:02 +0000  ./
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/Contents/
+AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+2018-03-07 09:39:02 +0000  MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage'
+2018-03-07 09:39:02 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage [armv7, 0.068946 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/SDWebImage.framework.dSYM/Contents/Resources/Dwarf/SDWebImage [arm64, 0.068946 seconds]:
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Processing symbols for nanopb.framework
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/nanopb.framework' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  5 files to consider
+2018-03-07 09:39:02 +0000  nanopb.framework/
+2018-03-07 09:39:02 +0000  nanopb.framework/_CodeSignature/
+2018-03-07 09:39:02 +0000  
+sent 226 bytes  received 32 bytes  516.00 bytes/sec
+total size is 203.01K  speedup is 805.74
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  67 files to consider
+2018-03-07 09:39:02 +0000  ./
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+MBProgressHUD.framework.dSYM/
+2018-03-07 09:39:02 +0000  MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  SDAutoLayout.framework.dSYM/Contents/Resources/
+SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb'
+2018-03-07 09:39:02 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb [armv7, 0.049117 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb [arm64, 0.049117 seconds]:
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Processing symbols for Ujimart.app
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000   100 files...2018-03-07 09:39:02 +0000   200 files...2018-03-07 09:39:02 +0000   300 files...2018-03-07 09:39:02 +0000  313 files to consider
+2018-03-07 09:39:02 +0000  Ujimart.app/
+2018-03-07 09:39:02 +0000  Ujimart.app/AlipaySDK.bundle/
+Ujimart.app/BuildingSearchVC.nib/
+2018-03-07 09:39:02 +0000  Ujimart.app/Frameworks/
+Ujimart.app/Frameworks/AFNetworking.framework/
+Ujimart.app/Frameworks/AFNetworking.framework/_CodeSignature/
+Ujimart.app/Frameworks/FMDB.framework/
+Ujimart.app/Frameworks/FMDB.framework/_CodeSignature/
+Ujimart.app/Frameworks/GoogleToolboxForMac.framework/
+Ujimart.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/
+Ujimart.app/Frameworks/JPFPSStatus.framework/
+Ujimart.app/Frameworks/JPFPSStatus.framework/_CodeSignature/
+Ujimart.app/Frameworks/MBProgressHUD.framework/
+Ujimart.app/Frameworks/MBProgressHUD.framework/_CodeSignature/
+Ujimart.app/Frameworks/MJExtension.framework/
+Ujimart.app/Frameworks/MJExtension.framework/_CodeSignature/
+Ujimart.app/Frameworks/Protobuf.framework/
+Ujimart.app/Frameworks/Protobuf.framework/_CodeSignature/
+Ujimart.app/Frameworks/SDAutoLayout.framework/
+Ujimart.app/Frameworks/SDAutoLayout.framework/_CodeSignature/
+Ujimart.app/Frameworks/SDWebImage.framework/
+Ujimart.app/Frameworks/SDWebImage.framework/_CodeSignature/
+Ujimart.app/Frameworks/nanopb.framework/
+Ujimart.app/Frameworks/nanopb.framework/_CodeSignature/
+Ujimart.app/GoogleMaps.bundle/
+Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/
+2018-03-07 09:39:02 +0000  Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/iw.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lt.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lv.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/
+Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/
+Ujimart.app/SGQRCode.bundle/
+Ujimart.app/SGQRCode.bundle/en.lproj/
+Ujimart.app/_CodeSignature/
+2018-03-07 09:39:02 +0000  
+sent 8.46K bytes  received 476 bytes  17.84K bytes/sec
+total size is 32.74M  speedup is 3758.13
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '--link-dest' '/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/dSYMs/' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii'
+2018-03-07 09:39:02 +0000  building file list ... 
+2018-03-07 09:39:02 +0000   0 files...2018-03-07 09:39:02 +0000  67 files to consider
+2018-03-07 09:39:02 +0000  ./
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/
+AFNetworking.framework.dSYM/Contents/
+2018-03-07 09:39:02 +0000  AFNetworking.framework.dSYM/Contents/Resources/
+AFNetworking.framework.dSYM/Contents/Resources/DWARF/
+FMDB.framework.dSYM/
+FMDB.framework.dSYM/Contents/
+FMDB.framework.dSYM/Contents/Resources/
+FMDB.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+JPFPSStatus.framework.dSYM/
+JPFPSStatus.framework.dSYM/Contents/
+JPFPSStatus.framework.dSYM/Contents/Resources/
+JPFPSStatus.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  MBProgressHUD.framework.dSYM/
+MBProgressHUD.framework.dSYM/Contents/
+MBProgressHUD.framework.dSYM/Contents/Resources/
+MBProgressHUD.framework.dSYM/Contents/Resources/DWARF/
+MJExtension.framework.dSYM/
+MJExtension.framework.dSYM/Contents/
+MJExtension.framework.dSYM/Contents/Resources/
+MJExtension.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SDAutoLayout.framework.dSYM/
+SDAutoLayout.framework.dSYM/Contents/
+SDAutoLayout.framework.dSYM/Contents/Resources/
+2018-03-07 09:39:02 +0000  SDAutoLayout.framework.dSYM/Contents/Resources/DWARF/
+SDWebImage.framework.dSYM/
+SDWebImage.framework.dSYM/Contents/
+SDWebImage.framework.dSYM/Contents/Resources/
+SDWebImage.framework.dSYM/Contents/Resources/DWARF/
+Ujimart.app.dSYM/
+Ujimart.app.dSYM/Contents/
+Ujimart.app.dSYM/Contents/Resources/
+Ujimart.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+2018-03-07 09:39:02 +0000  nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2018-03-07 09:39:02 +0000  
+sent 2.25K bytes  received 422 bytes  5.32K bytes/sec
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  total size is 40.27M  speedup is 15496.54
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  
+
+2018-03-07 09:39:02 +0000  2018-03-07 09:39:02 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:02 +0000  
+2018-03-07 09:39:02 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Ujimart.app.dSYM/Contents/Resources/Dwarf/Ujimart'
+2018-03-07 09:39:04 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Ujimart.app.dSYM/Contents/Resources/Dwarf/Ujimart [armv7, 0.764944 seconds]:
+/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Ujimart.app.dSYM/Contents/Resources/Dwarf/Ujimart [arm64, 0.764944 seconds]:
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  2018-03-07 09:39:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-03-07 09:39:04 +0000  
+2018-03-07 09:39:04 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-03-07 09:39:04 +0000  Processing step: IDEDistributionAppThinningStep
+2018-03-07 09:39:04 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-03-07 09:39:04 +0000  Processing step: IDEDistributionODRStep
+2018-03-07 09:39:04 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89e993f00 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fc89e1775c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/AFNetworking.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89ce8c760 'org.cocoapods.FMDB' '<DVTFilePath:0x7fc88fdb4180:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/FMDB.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89848cdb0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fc893459e70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89301e280 'org.cocoapods.JPFPSStatus' '<DVTFilePath:0x7fc897da91c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/JPFPSStatus.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc897cb9370 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fc89b5f4b30:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MBProgressHUD.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc8980d96b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fc89e4dd420:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MJExtension.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89b644fa0 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fc89b5db7d0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/Protobuf.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89e6c9d40 'org.cocoapods.SDAutoLayout' '<DVTFilePath:0x7fc89cbb7de0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDAutoLayout.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc897b98100 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fc8951abe70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDWebImage.framework'>'>
+2018-03-07 09:39:04 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc89b389140 'org.cocoapods.nanopb' '<DVTFilePath:0x7fc89a83ed50:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/nanopb.framework'>'>
+2018-03-07 09:39:04 +0000  Running /usr/bin/xattr '-crs' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app'
+2018-03-07 09:39:06 +0000  
+2018-03-07 09:39:06 +0000  2018-03-07 09:39:06 +0000  /usr/bin/xattr exited with 0
+
+2018-03-07 09:39:06 +0000  
+2018-03-07 09:39:06 +0000  Processing step: IDEDistributionCodesignStep
+2018-03-07 09:39:06 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89e993f00 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fc89e1775c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/AFNetworking.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc897ca0100>: {
+}
+2018-03-07 09:39:06 +0000  Entitlements for <IDEDistributionItem: 0x7fc89e993f00 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fc89e1775c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/AFNetworking.framework'>'>: {
+}
+2018-03-07 09:39:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89e993f00 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fc89e1775c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/AFNetworking.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsDiPw6h
+2018-03-07 09:39:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsDiPw6h' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/AFNetworking.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AFNetworking]
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89ce8c760 'org.cocoapods.FMDB' '<DVTFilePath:0x7fc88fdb4180:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/FMDB.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc89698a030>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc89ce8c760 'org.cocoapods.FMDB' '<DVTFilePath:0x7fc88fdb4180:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/FMDB.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89ce8c760 'org.cocoapods.FMDB' '<DVTFilePath:0x7fc88fdb4180:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/FMDB.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsNlFW8E
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsNlFW8E' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/FMDB.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/FMDB.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FMDB]
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89848cdb0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fc893459e70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc896fc9210>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc89848cdb0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fc893459e70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89848cdb0 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fc893459e70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsQx1Znn
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsQx1Znn' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.GoogleToolboxForMac]
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89301e280 'org.cocoapods.JPFPSStatus' '<DVTFilePath:0x7fc897da91c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/JPFPSStatus.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc89d18b130>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc89301e280 'org.cocoapods.JPFPSStatus' '<DVTFilePath:0x7fc897da91c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/JPFPSStatus.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89301e280 'org.cocoapods.JPFPSStatus' '<DVTFilePath:0x7fc897da91c0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/JPFPSStatus.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlements3CA4R0
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlements3CA4R0' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/JPFPSStatus.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/JPFPSStatus.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.JPFPSStatus]
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc897cb9370 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fc89b5f4b30:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MBProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc8969a9430>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc897cb9370 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fc89b5f4b30:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MBProgressHUD.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc897cb9370 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7fc89b5f4b30:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MBProgressHUD.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlements7AuANA
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlements7AuANA' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MBProgressHUD.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MBProgressHUD]
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc8980d96b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fc89e4dd420:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MJExtension.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc8952a6700>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc8980d96b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fc89e4dd420:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MJExtension.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc8980d96b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7fc89e4dd420:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/MJExtension.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsCw08XB
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsCw08XB' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MJExtension.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/MJExtension.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MJExtension]
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89b644fa0 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fc89b5db7d0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/Protobuf.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc89354c7b0>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc89b644fa0 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fc89b5db7d0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/Protobuf.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89b644fa0 'org.cocoapods.Protobuf' '<DVTFilePath:0x7fc89b5db7d0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/Protobuf.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsjqJsze
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsjqJsze' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/Protobuf.framework'
+2018-03-07 09:39:07 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/Protobuf.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Protobuf]
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  2018-03-07 09:39:07 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:07 +0000  
+2018-03-07 09:39:07 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89e6c9d40 'org.cocoapods.SDAutoLayout' '<DVTFilePath:0x7fc89cbb7de0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDAutoLayout.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc89a9094d0>: {
+}
+2018-03-07 09:39:07 +0000  Entitlements for <IDEDistributionItem: 0x7fc89e6c9d40 'org.cocoapods.SDAutoLayout' '<DVTFilePath:0x7fc89cbb7de0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDAutoLayout.framework'>'>: {
+}
+2018-03-07 09:39:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89e6c9d40 'org.cocoapods.SDAutoLayout' '<DVTFilePath:0x7fc89cbb7de0:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDAutoLayout.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementslhn7Cj
+2018-03-07 09:39:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementslhn7Cj' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDAutoLayout.framework'
+2018-03-07 09:39:08 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDAutoLayout.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDAutoLayout]
+2018-03-07 09:39:08 +0000  2018-03-07 09:39:08 +0000  
+
+2018-03-07 09:39:08 +0000  /usr/bin/codesign exited with 0
+2018-03-07 09:39:08 +0000  2018-03-07 09:39:08 +0000  
+
+2018-03-07 09:39:08 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc897b98100 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fc8951abe70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDWebImage.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc893234870>: {
+}
+2018-03-07 09:39:08 +0000  Entitlements for <IDEDistributionItem: 0x7fc897b98100 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fc8951abe70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDWebImage.framework'>'>: {
+}
+2018-03-07 09:39:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc897b98100 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fc8951abe70:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/SDWebImage.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsCeu0ev
+2018-03-07 09:39:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsCeu0ev' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDWebImage.framework'
+2018-03-07 09:39:08 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDWebImage]
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  2018-03-07 09:39:08 +0000  
+
+2018-03-07 09:39:08 +0000  /usr/bin/codesign exited with 0
+2018-03-07 09:39:08 +0000  2018-03-07 09:39:08 +0000  
+
+2018-03-07 09:39:08 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc89b389140 'org.cocoapods.nanopb' '<DVTFilePath:0x7fc89a83ed50:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/nanopb.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc8a622d7c0>: {
+}
+2018-03-07 09:39:08 +0000  Entitlements for <IDEDistributionItem: 0x7fc89b389140 'org.cocoapods.nanopb' '<DVTFilePath:0x7fc89a83ed50:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/nanopb.framework'>'>: {
+}
+2018-03-07 09:39:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc89b389140 'org.cocoapods.nanopb' '<DVTFilePath:0x7fc89a83ed50:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app/Frameworks/nanopb.framework'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsoNi7eL
+2018-03-07 09:39:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsoNi7eL' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/nanopb.framework'
+2018-03-07 09:39:08 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.nanopb]
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  2018-03-07 09:39:08 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:08 +0000  
+2018-03-07 09:39:08 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc893fa4800 'net.sanvio.macaustore' '<DVTFilePath:0x7fc897d91a90:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc8952d1d00>: {
+}
+2018-03-07 09:39:08 +0000  Entitlements for <IDEDistributionItem: 0x7fc893fa4800 'net.sanvio.macaustore' '<DVTFilePath:0x7fc897d91a90:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app'>'>: {
+    "application-identifier" = "9NVUT96JB4.net.sanvio.macaustore";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 9NVUT96JB4;
+    "get-task-allow" = 0;
+}
+2018-03-07 09:39:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc893fa4800 'net.sanvio.macaustore' '<DVTFilePath:0x7fc897d91a90:'/Users/sanvio171120/Library/Developer/Xcode/Archives/2018-03-07/Ujimart 2018-3-7 下午5.37.xcarchive/Products/Applications/Ujimart.app'>'> to: /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsXJEqPS
+2018-03-07 09:39:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '30DD76B887A1681D136342F8A5EC7D8697F4C83C' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/entitlementsXJEqPS' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app'
+2018-03-07 09:39:08 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app: replacing existing signature
+2018-03-07 09:39:09 +0000  /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root/Payload/Ujimart.app: signed app bundle with Mach-O universal (armv7 arm64) [net.sanvio.macaustore]
+2018-03-07 09:39:09 +0000  2018-03-07 09:39:09 +0000  
+
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  2018-03-07 09:39:09 +0000  /usr/bin/codesign exited with 0
+
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-07 09:39:09 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-03-07 09:39:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Symbols' '--link-dest' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root'
+2018-03-07 09:39:09 +0000  building file list ... 
+2018-03-07 09:39:09 +0000   0 files...2018-03-07 09:39:09 +0000  23 files to consider
+2018-03-07 09:39:09 +0000  Symbols/
+2018-03-07 09:39:09 +0000  
+sent 1.26K bytes  received 26 bytes  2.58K bytes/sec
+total size is 21.11M  speedup is 16778.85
+2018-03-07 09:39:09 +0000  2018-03-07 09:39:09 +0000  
+
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  2018-03-07 09:39:09 +0000  /usr/bin/rsync exited with 0
+
+2018-03-07 09:39:09 +0000  
+2018-03-07 09:39:09 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root' '/var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Packages/Ujimart.ipa'
+2018-03-07 09:39:09 +0000  >>> Copying /var/folders/pn/jx34w21j19bcq5x4nfv01wq00000gn/T/XcodeDistPipeline.Gii/Root 
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/_CodeSignature/CodeResources ... 
+2018-03-07 09:39:09 +0000  88562 bytes for ./Payload/Ujimart.app/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/AlipaySDK.bundle/bar@2x.png ... 
+2018-03-07 09:39:09 +0000  1011 bytes for ./Payload/Ujimart.app/AlipaySDK.bundle/bar@2x.png
+copying file ./Payload/Ujimart.app/AlipaySDK.bundle/refresh@2x.png ... 
+605 bytes for ./Payload/Ujimart.app/AlipaySDK.bundle/refresh@2x.png
+copying file ./Payload/Ujimart.app/AlipaySDK.bundle/refresh_click@2x.png ... 
+2018-03-07 09:39:09 +0000  1824 bytes for ./Payload/Ujimart.app/AlipaySDK.bundle/refresh_click@2x.png
+copying file ./Payload/Ujimart.app/AlipaySDK.bundle/shutdown@2x.png ... 
+2018-03-07 09:39:09 +0000  222 bytes for ./Payload/Ujimart.app/AlipaySDK.bundle/shutdown@2x.png
+copying file ./Payload/Ujimart.app/AlipaySDK.bundle/shutdown_click@2x.png ... 
+1319 bytes for ./Payload/Ujimart.app/AlipaySDK.bundle/shutdown_click@2x.png
+copying file ./Payload/Ujimart.app/AppIcon20x20@2x.png ... 
+2018-03-07 09:39:09 +0000  19769 bytes for ./Payload/Ujimart.app/AppIcon20x20@2x.png
+copying file ./Payload/Ujimart.app/AppIcon20x20@3x.png ... 
+2018-03-07 09:39:09 +0000  4727 bytes for ./Payload/Ujimart.app/AppIcon20x20@3x.png
+copying file ./Payload/Ujimart.app/AppIcon29x29.png ... 
+2018-03-07 09:39:09 +0000  18746 bytes for ./Payload/Ujimart.app/AppIcon29x29.png
+copying file ./Payload/Ujimart.app/AppIcon29x29@2x.png ... 
+2018-03-07 09:39:09 +0000  4851 bytes for ./Payload/Ujimart.app/AppIcon29x29@2x.png
+copying file ./Payload/Ujimart.app/AppIcon29x29@3x.png ... 
+2018-03-07 09:39:09 +0000  5632 bytes for ./Payload/Ujimart.app/AppIcon29x29@3x.png
+copying file ./Payload/Ujimart.app/AppIcon40x40@2x.png ... 
+2018-03-07 09:39:09 +0000  5485 bytes for ./Payload/Ujimart.app/AppIcon40x40@2x.png
+copying file ./Payload/Ujimart.app/AppIcon40x40@3x.png ... 
+2018-03-07 09:39:09 +0000  19680 bytes for ./Payload/Ujimart.app/AppIcon40x40@3x.png
+copying file ./Payload/Ujimart.app/AppIcon57x57.png ... 
+2018-03-07 09:39:09 +0000  18955 bytes for ./Payload/Ujimart.app/AppIcon57x57.png
+copying file ./Payload/Ujimart.app/AppIcon57x57@2x.png ... 
+2018-03-07 09:39:09 +0000  19723 bytes for ./Payload/Ujimart.app/AppIcon57x57@2x.png
+copying file ./Payload/Ujimart.app/AppIcon60x60@2x.png ... 
+2018-03-07 09:39:09 +0000  19680 bytes for ./Payload/Ujimart.app/AppIcon60x60@2x.png
+copying file ./Payload/Ujimart.app/AppIcon60x60@3x.png ... 
+2018-03-07 09:39:09 +0000  19911 bytes for ./Payload/Ujimart.app/AppIcon60x60@3x.png
+copying file ./Payload/Ujimart.app/archived-expanded-entitlements.xcent ... 
+2018-03-07 09:39:09 +0000  246 bytes for ./Payload/Ujimart.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Ujimart.app/Assets.car ... 
+2018-03-07 09:39:09 +0000  3698280 bytes for ./Payload/Ujimart.app/Assets.car
+copying file ./Payload/Ujimart.app/blackArrow.png ... 
+2018-03-07 09:39:09 +0000  3799 bytes for ./Payload/Ujimart.app/blackArrow.png
+copying file ./Payload/Ujimart.app/blackArrow@2x.png ... 
+593 bytes for ./Payload/Ujimart.app/blackArrow@2x.png
+copying file ./Payload/Ujimart.app/blueArrow.png ... 
+2018-03-07 09:39:09 +0000  4175 bytes for ./Payload/Ujimart.app/blueArrow.png
+copying file ./Payload/Ujimart.app/blueArrow@2x.png ... 
+2018-03-07 09:39:09 +0000  894 bytes for ./Payload/Ujimart.app/blueArrow@2x.png
+copying file ./Payload/Ujimart.app/blueLedBig.png ... 
+3050 bytes for ./Payload/Ujimart.app/blueLedBig.png
+copying file ./Payload/Ujimart.app/blueLedBig@2x.png ... 
+2018-03-07 09:39:09 +0000  2994 bytes for ./Payload/Ujimart.app/blueLedBig@2x.png
+copying file ./Payload/Ujimart.app/blueLedBigOff.png ... 
+325 bytes for ./Payload/Ujimart.app/blueLedBigOff.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/blueLedSmall.png ... 
+2018-03-07 09:39:09 +0000  2978 bytes for ./Payload/Ujimart.app/blueLedSmall.png
+copying file ./Payload/Ujimart.app/blueLedSmall@2x.png ... 
+2969 bytes for ./Payload/Ujimart.app/blueLedSmall@2x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/blueLedSmallOff.png ... 
+272 bytes for ./Payload/Ujimart.app/blueLedSmallOff.png
+copying file ./Payload/Ujimart.app/blueLedSmallOff@2x.png ... 
+2018-03-07 09:39:09 +0000  487 bytes for ./Payload/Ujimart.app/blueLedSmallOff@2x.png
+copying file ./Payload/Ujimart.app/BuildingCell.nib ... 
+2018-03-07 09:39:09 +0000  2781 bytes for ./Payload/Ujimart.app/BuildingCell.nib
+copying file ./Payload/Ujimart.app/BuildingSearchVC.nib/objects-11.0+.nib ... 
+2018-03-07 09:39:09 +0000  5349 bytes for ./Payload/Ujimart.app/BuildingSearchVC.nib/objects-11.0+.nib
+copying file ./Payload/Ujimart.app/BuildingSearchVC.nib/runtime.nib ... 
+2018-03-07 09:39:09 +0000  5480 bytes for ./Payload/Ujimart.app/BuildingSearchVC.nib/runtime.nib
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/CartPayingController.nib ... 
+1794 bytes for ./Payload/Ujimart.app/CartPayingController.nib
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/config.plist ... 
+1104 bytes for ./Payload/Ujimart.app/config.plist
+copying file ./Payload/Ujimart.app/ContactCell.nib ... 
+2018-03-07 09:39:09 +0000  5849 bytes for ./Payload/Ujimart.app/ContactCell.nib
+copying file ./Payload/Ujimart.app/disclosure.png ... 
+2018-03-07 09:39:09 +0000  3151 bytes for ./Payload/Ujimart.app/disclosure.png
+copying file ./Payload/Ujimart.app/disclosure@2x.png ... 
+2018-03-07 09:39:09 +0000  3356 bytes for ./Payload/Ujimart.app/disclosure@2x.png
+copying file ./Payload/Ujimart.app/embedded.mobileprovision ... 
+2018-03-07 09:39:09 +0000  10066 bytes for ./Payload/Ujimart.app/embedded.mobileprovision
+copying file ./Payload/Ujimart.app/eng.plist ... 
+2018-03-07 09:39:09 +0000  19520 bytes for ./Payload/Ujimart.app/eng.plist
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-03-07 09:39:09 +0000  2202 bytes for ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+copying file ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-03-07 09:39:09 +0000  1034720 bytes for ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/Info.plist ... 
+2018-03-07 09:39:09 +0000  743 bytes for ./Payload/Ujimart.app/Frameworks/AFNetworking.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/FMDB.framework/_CodeSignature/CodeResources ... 
+2018-03-07 09:39:09 +0000  2202 bytes for ./Payload/Ujimart.app/Frameworks/FMDB.framework/_CodeSignature/CodeResources
+copying file ./Payload/Ujimart.app/Frameworks/FMDB.framework/FMDB ... 
+2018-03-07 09:39:09 +0000  401456 bytes for ./Payload/Ujimart.app/Frameworks/FMDB.framework/FMDB
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/FMDB.framework/Info.plist ... 
+727 bytes for ./Payload/Ujimart.app/Frameworks/FMDB.framework/Info.plist
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-03-07 09:39:09 +0000  264208 bytes for ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+759 bytes for ./Payload/Ujimart.app/Frameworks/GoogleToolboxForMac.framework/Info.plist
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/Info.plist ... 
+741 bytes for ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/JPFPSStatus ... 
+2018-03-07 09:39:09 +0000  196992 bytes for ./Payload/Ujimart.app/Frameworks/JPFPSStatus.framework/JPFPSStatus
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+745 bytes for ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2018-03-07 09:39:09 +0000  336944 bytes for ./Payload/Ujimart.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/MJExtension.framework/Info.plist ... 
+742 bytes for ./Payload/Ujimart.app/Frameworks/MJExtension.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/MJExtension.framework/MJExtension ... 
+2018-03-07 09:39:09 +0000  356400 bytes for ./Payload/Ujimart.app/Frameworks/MJExtension.framework/MJExtension
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2018-03-07 09:39:09 +0000  2202 bytes for ./Payload/Ujimart.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Ujimart.app/Frameworks/nanopb.framework/Info.plist ... 
+2018-03-07 09:39:09 +0000  731 bytes for ./Payload/Ujimart.app/Frameworks/nanopb.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/nanopb.framework/nanopb ... 
+2018-03-07 09:39:09 +0000  232480 bytes for ./Payload/Ujimart.app/Frameworks/nanopb.framework/nanopb
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/Protobuf.framework/Info.plist ... 
+735 bytes for ./Payload/Ujimart.app/Frameworks/Protobuf.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/Protobuf.framework/Protobuf ... 
+2018-03-07 09:39:09 +0000  2029152 bytes for ./Payload/Ujimart.app/Frameworks/Protobuf.framework/Protobuf
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/Info.plist ... 
+743 bytes for ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/SDAutoLayout ... 
+2018-03-07 09:39:09 +0000  531072 bytes for ./Payload/Ujimart.app/Frameworks/SDAutoLayout.framework/SDAutoLayout
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/Info.plist ... 
+739 bytes for ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/Info.plist
+copying file ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2018-03-07 09:39:09 +0000  726128 bytes for ./Payload/Ujimart.app/Frameworks/SDWebImage.framework/SDWebImage
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left.png ... 
+451 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left@2x.png ... 
+2018-03-07 09:39:09 +0000  1055 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left@3x.png ... 
+2018-03-07 09:39:09 +0000  2386 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_left@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right.png ... 
+455 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right@2x.png ... 
+1051 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right@3x.png ... 
+2374 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/bubble_right@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker.png ... 
+2018-03-07 09:39:09 +0000  1221 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker@2x.png ... 
+2018-03-07 09:39:09 +0000  2531 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker@3x.png ... 
+2018-03-07 09:39:09 +0000  6988 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/default_marker@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom ... 
+2018-03-07 09:39:09 +0000  4576 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom ... 
+2018-03-07 09:39:09 +0000  4682 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.mom
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.omo ... 
+2018-03-07 09:39:09 +0000  10296 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileVersionID.omo
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist ... 
+2018-03-07 09:39:09 +0000  807 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings ... 
+992 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car ... 
+2018-03-07 09:39:09 +0000  46179 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Assets.car
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png ... 
+2018-03-07 09:39:09 +0000  334 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png ... 
+2018-03-07 09:39:09 +0000  433 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png ... 
+515 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png ... 
+2018-03-07 09:39:09 +0000  631 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png ... 
+2560 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png ... 
+720 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png ... 
+2221 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png ... 
+492 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png ... 
+2018-03-07 09:39:09 +0000  1229 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  1014 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  940 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings ... 
+924 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png ... 
+2018-03-07 09:39:09 +0000  315 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  849 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf ... 
+2018-03-07 09:39:09 +0000  392092 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings ... 
+996 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  1019 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  1016 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  1016 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  881 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  1038 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  908 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png ... 
+2018-03-07 09:39:09 +0000  3393 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png ... 
+2018-03-07 09:39:09 +0000  7660 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png ... 
+2018-03-07 09:39:09 +0000  12519 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png ... 
+2018-03-07 09:39:09 +0000  3246 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png ... 
+2018-03-07 09:39:09 +0000  7465 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png ... 
+2018-03-07 09:39:09 +0000  10683 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png ... 
+2018-03-07 09:39:09 +0000  10365 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png ... 
+2018-03-07 09:39:09 +0000  25169 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png ... 
+2018-03-07 09:39:09 +0000  42326 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings ... 
+930 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings ... 
+994 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings ... 
+909 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  996 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png ... 
+483 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png ... 
+992 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large.png ... 
+2018-03-07 09:39:09 +0000  1114 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@2x.png ... 
+2018-03-07 09:39:09 +0000  2446 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@3x.png ... 
+2018-03-07 09:39:09 +0000  3304 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle_large@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off.png ... 
+2018-03-07 09:39:09 +0000  498 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@2x.png ... 
+2018-03-07 09:39:09 +0000  860 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@3x.png ... 
+2018-03-07 09:39:09 +0000  1577 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_location_off@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png ... 
+362 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png ... 
+663 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png ... 
+2018-03-07 09:39:09 +0000  1240 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  816 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist ... 
+2018-03-07 09:39:09 +0000  510 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  876 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/iw.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  930 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/iw.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  776 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  814 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lt.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lt.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lv.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  801 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/lv.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  821 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  841 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  865 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  841 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  897 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png ... 
+2018-03-07 09:39:09 +0000  6982 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png ... 
+2018-03-07 09:39:09 +0000  7026 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings ... 
+948 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings ... 
+948 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings ... 
+992 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings ... 
+985 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png ... 
+95 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png ... 
+2018-03-07 09:39:09 +0000  1029 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png ... 
+2018-03-07 09:39:09 +0000  127 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png ... 
+84 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png ... 
+2018-03-07 09:39:09 +0000  1934 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png ... 
+2018-03-07 09:39:09 +0000  223 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png ... 
+74 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png ... 
+2018-03-07 09:39:09 +0000  425 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png ... 
+93 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings ... 
+1066 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings ... 
+904 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  893 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  896 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf ... 
+2018-03-07 09:39:09 +0000  353228 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings ... 
+944 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png ... 
+2018-03-07 09:39:09 +0000  210 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_endcap.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale1.png ... 
+2018-03-07 09:39:09 +0000  342 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale1.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale2.png ... 
+382 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_greyscale2.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png ... 
+243 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/traffic_startcap.png
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  982 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  995 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  748 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings ... 
+2018-03-07 09:39:09 +0000  738 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings ... 
+754 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleMaps.bundle/Info.plist ... 
+499 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/Info.plist
+copying file ./Payload/Ujimart.app/GoogleMaps.bundle/oss_licenses_maps.txt.gz ... 
+2018-03-07 09:39:09 +0000  22555 bytes for ./Payload/Ujimart.app/GoogleMaps.bundle/oss_licenses_maps.txt.gz
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/GoogleService-Info.plist ... 
+871 bytes for ./Payload/Ujimart.app/GoogleService-Info.plist
+copying file ./Payload/Ujimart.app/grayArrow.png ... 
+2018-03-07 09:39:09 +0000  1077 bytes for ./Payload/Ujimart.app/grayArrow.png
+copying file ./Payload/Ujimart.app/grayArrow@2x.png ... 
+2018-03-07 09:39:09 +0000  1737 bytes for ./Payload/Ujimart.app/grayArrow@2x.png
+copying file ./Payload/Ujimart.app/Info.plist ... 
+2018-03-07 09:39:09 +0000  2869 bytes for ./Payload/Ujimart.app/Info.plist
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/LaunchImage-1100-Portrait-2436h@3x.png ... 
+2018-03-07 09:39:09 +0000  44471 bytes for ./Payload/Ujimart.app/LaunchImage-1100-Portrait-2436h@3x.png
+copying file ./Payload/Ujimart.app/LaunchImage-700-568h@2x.png ... 
+2018-03-07 09:39:09 +0000  29597 bytes for ./Payload/Ujimart.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/Ujimart.app/LaunchImage-700@2x.png ... 
+2018-03-07 09:39:09 +0000  29363 bytes for ./Payload/Ujimart.app/LaunchImage-700@2x.png
+copying file ./Payload/Ujimart.app/LaunchImage-800-667h@2x.png ... 
+2018-03-07 09:39:09 +0000  31918 bytes for ./Payload/Ujimart.app/LaunchImage-800-667h@2x.png
+copying file ./Payload/Ujimart.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2018-03-07 09:39:09 +0000  47270 bytes for ./Payload/Ujimart.app/LaunchImage-800-Portrait-736h@3x.png
+copying file ./Payload/Ujimart.app/map_backgroup.png ... 
+2018-03-07 09:39:09 +0000  12116 bytes for ./Payload/Ujimart.app/map_backgroup.png
+copying file ./Payload/Ujimart.app/MapViewController.nib ... 
+2018-03-07 09:39:09 +0000  3142 bytes for ./Payload/Ujimart.app/MapViewController.nib
+copying file ./Payload/Ujimart.app/MenuFooterView.nib ... 
+2018-03-07 09:39:09 +0000  6235 bytes for ./Payload/Ujimart.app/MenuFooterView.nib
+copying file ./Payload/Ujimart.app/MineQRCodeViewController.nib ... 
+2018-03-07 09:39:09 +0000  974 bytes for ./Payload/Ujimart.app/MineQRCodeViewController.nib
+copying file ./Payload/Ujimart.app/OrderProductCell.nib ... 
+1171 bytes for ./Payload/Ujimart.app/OrderProductCell.nib
+copying file ./Payload/Ujimart.app/PkgInfo ... 
+8 bytes for ./Payload/Ujimart.app/PkgInfo
+copying file ./Payload/Ujimart.app/Reg_Captcha_Controller.nib ... 
+2018-03-07 09:39:09 +0000  7213 bytes for ./Payload/Ujimart.app/Reg_Captcha_Controller.nib
+copying file ./Payload/Ujimart.app/Reg_FB_LastViewController.nib ... 
+2018-03-07 09:39:09 +0000  7686 bytes for ./Payload/Ujimart.app/Reg_FB_LastViewController.nib
+copying file ./Payload/Ujimart.app/Reg_Finish_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  3508 bytes for ./Payload/Ujimart.app/Reg_Finish_ViewController.nib
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/Reg_InputLast_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  7691 bytes for ./Payload/Ujimart.app/Reg_InputLast_ViewController.nib
+copying file ./Payload/Ujimart.app/Reg_InputName_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  6106 bytes for ./Payload/Ujimart.app/Reg_InputName_ViewController.nib
+copying file ./Payload/Ujimart.app/Reg_InputPWD_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  6680 bytes for ./Payload/Ujimart.app/Reg_InputPWD_ViewController.nib
+copying file ./Payload/Ujimart.app/Reg_InputTel_FB_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  7448 bytes for ./Payload/Ujimart.app/Reg_InputTel_FB_ViewController.nib
+copying file ./Payload/Ujimart.app/Reg_InputTel_ViewController.nib ... 
+2018-03-07 09:39:09 +0000  7610 bytes for ./Payload/Ujimart.app/Reg_InputTel_ViewController.nib
+copying file ./Payload/Ujimart.app/SDGroupCell.nib ... 
+2018-03-07 09:39:09 +0000  4299 bytes for ./Payload/Ujimart.app/SDGroupCell.nib
+copying file ./Payload/Ujimart.app/SDNestedTableView.nib ... 
+2018-03-07 09:39:09 +0000  1510 bytes for ./Payload/Ujimart.app/SDNestedTableView.nib
+copying file ./Payload/Ujimart.app/SDSubCell.nib ... 
+2018-03-07 09:39:09 +0000  2943 bytes for ./Payload/Ujimart.app/SDSubCell.nib
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/en.lproj/Root.strings ... 
+2018-03-07 09:39:09 +0000  546 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/en.lproj/Root.strings
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLine@2x.png ... 
+2018-03-07 09:39:09 +0000  2231 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLine@2x.png
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLine@3x.png ... 
+2018-03-07 09:39:09 +0000  3891 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLine@3x.png
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLineGrid@2x.png ... 
+2018-03-07 09:39:09 +0000  7999 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLineGrid@2x.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLineGrid@3x.png ... 
+2018-03-07 09:39:09 +0000  14817 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/QRCodeScanningLineGrid@3x.png
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/Root.plist ... 
+2018-03-07 09:39:09 +0000  1456 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/Root.plist
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/SGQRCodeFlashlightCloseImage@2x.png ... 
+2018-03-07 09:39:09 +0000  6858 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/SGQRCodeFlashlightCloseImage@2x.png
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/SGQRCodeFlashlightOpenImage@2x.png ... 
+2018-03-07 09:39:09 +0000  5310 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/SGQRCodeFlashlightOpenImage@2x.png
+copying file ./Payload/Ujimart.app/SGQRCode.bundle/sound.caf ... 
+2018-03-07 09:39:09 +0000  129556 bytes for ./Payload/Ujimart.app/SGQRCode.bundle/sound.caf
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/store6.db ... 
+2018-03-07 09:39:09 +0000  102400 bytes for ./Payload/Ujimart.app/store6.db
+copying file ./Payload/Ujimart.app/TSAlertViewBackground.png ... 
+2018-03-07 09:39:09 +0000  2789 bytes for ./Payload/Ujimart.app/TSAlertViewBackground.png
+copying file ./Payload/Ujimart.app/TSAlertViewBackground2.png ... 
+2018-03-07 09:39:09 +0000  6480 bytes for ./Payload/Ujimart.app/TSAlertViewBackground2.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/TSAlertViewBackground2_7.png ... 
+3035 bytes for ./Payload/Ujimart.app/TSAlertViewBackground2_7.png
+2018-03-07 09:39:09 +0000  copying file ./Payload/Ujimart.app/TSAlertViewBackground_7.png ... 
+3035 bytes for ./Payload/Ujimart.app/TSAlertViewBackground_7.png
+copying file ./Payload/Ujimart.app/TSAlertViewButtonBackground.png ... 
+2018-03-07 09:39:09 +0000  535 bytes for ./Payload/Ujimart.app/TSAlertViewButtonBackground.png
+copying file ./Payload/Ujimart.app/TSAlertViewButtonBackground_7.png ... 
+2018-03-07 09:39:09 +0000  3311 bytes for ./Payload/Ujimart.app/TSAlertViewButtonBackground_7.png
+copying file ./Payload/Ujimart.app/TSAlertViewButtonBackground_Highlighted.png ... 
+2018-03-07 09:39:09 +0000  577 bytes for ./Payload/Ujimart.app/TSAlertViewButtonBackground_Highlighted.png
+copying file ./Payload/Ujimart.app/TSAlertViewButtonBackground_Highlighted_7.png ... 
+2808 bytes for ./Payload/Ujimart.app/TSAlertViewButtonBackground_Highlighted_7.png
+copying file ./Payload/Ujimart.app/TSAlertViewCancelButtonBackground.png ... 
+2018-03-07 09:39:09 +0000  504 bytes for ./Payload/Ujimart.app/TSAlertViewCancelButtonBackground.png
+copying file ./Payload/Ujimart.app/TSAlertViewMessageListViewShadow.png ... 
+2018-03-07 09:39:09 +0000  249 bytes for ./Payload/Ujimart.app/TSAlertViewMessageListViewShadow.png
+copying file ./Payload/Ujimart.app/tw.plist ... 
+2018-03-07 09:39:09 +0000  16061 bytes for ./Payload/Ujimart.app/tw.plist
+copying file ./Payload/Ujimart.app/Ujimart ... 
+2018-03-07 09:39:10 +0000  22753488 bytes for ./Payload/Ujimart.app/Ujimart
+2018-03-07 09:39:10 +0000  copying file ./Payload/Ujimart.app/VersionVC.nib ... 
+4115 bytes for ./Payload/Ujimart.app/VersionVC.nib
+copying file ./Payload/Ujimart.app/VideoCell.nib ... 
+2018-03-07 09:39:10 +0000  6600 bytes for ./Payload/Ujimart.app/VideoCell.nib
+copying file ./Payload/Ujimart.app/View.nib ... 
+2018-03-07 09:39:10 +0000  2895 bytes for ./Payload/Ujimart.app/View.nib
+copying file ./Payload/Ujimart.app/whiteArrow.png ... 
+4011 bytes for ./Payload/Ujimart.app/whiteArrow.png
+copying file ./Payload/Ujimart.app/whiteArrow@2x.png ... 
+2018-03-07 09:39:10 +0000  869 bytes for ./Payload/Ujimart.app/whiteArrow@2x.png
+copying file ./Payload/Ujimart.app/zbar-back.png ... 
+319 bytes for ./Payload/Ujimart.app/zbar-back.png
+copying file ./Payload/Ujimart.app/zbar-help.html ... 
+2018-03-07 09:39:10 +0000  3383 bytes for ./Payload/Ujimart.app/zbar-help.html
+copying file ./Payload/Ujimart.app/zbar-helpicons.png ... 
+2018-03-07 09:39:10 +0000  22384 bytes for ./Payload/Ujimart.app/zbar-helpicons.png
+copying file ./Payload/Ujimart.app/zbar-samples.png ... 
+2018-03-07 09:39:10 +0000  1312 bytes for ./Payload/Ujimart.app/zbar-samples.png
+2018-03-07 09:39:10 +0000  copying file ./Symbols/08C541F1-4BA9-3EBE-9805-A48B5AD84B8F.symbols ... 
+2018-03-07 09:39:10 +0000  76040 bytes for ./Symbols/08C541F1-4BA9-3EBE-9805-A48B5AD84B8F.symbols
+copying file ./Symbols/0D1C323E-E115-3EC8-BD9E-CE0D470EF6F8.symbols ... 
+2018-03-07 09:39:10 +0000  126880 bytes for ./Symbols/0D1C323E-E115-3EC8-BD9E-CE0D470EF6F8.symbols
+copying file ./Symbols/19D9CB2F-B754-3532-9A26-07F901EE7AF5.symbols ... 
+2018-03-07 09:39:10 +0000  253000 bytes for ./Symbols/19D9CB2F-B754-3532-9A26-07F901EE7AF5.symbols
+copying file ./Symbols/3DF21493-90D6-3F6D-B808-2925E77383C8.symbols ... 
+2018-03-07 09:39:10 +0000  227264 bytes for ./Symbols/3DF21493-90D6-3F6D-B808-2925E77383C8.symbols
+copying file ./Symbols/3EB7F0FE-78BA-3697-BC10-F023E48B21E3.symbols ... 
+2018-03-07 09:39:10 +0000  54216 bytes for ./Symbols/3EB7F0FE-78BA-3697-BC10-F023E48B21E3.symbols
+copying file ./Symbols/42A0F380-EDCC-38F6-8525-A6292E6803EE.symbols ... 
+2018-03-07 09:39:10 +0000  69336 bytes for ./Symbols/42A0F380-EDCC-38F6-8525-A6292E6803EE.symbols
+copying file ./Symbols/66FB24E0-EE50-3196-9D93-536B63C79C23.symbols ... 
+2018-03-07 09:39:10 +0000  100776 bytes for ./Symbols/66FB24E0-EE50-3196-9D93-536B63C79C23.symbols
+copying file ./Symbols/6716A027-771E-33D5-A41B-1DA60C2CD3D0.symbols ... 
+2018-03-07 09:39:10 +0000  147216 bytes for ./Symbols/6716A027-771E-33D5-A41B-1DA60C2CD3D0.symbols
+2018-03-07 09:39:10 +0000  copying file ./Symbols/72AE6FE9-2B23-369E-A1D8-B2E563BC3D50.symbols ... 
+2018-03-07 09:39:11 +0000  782832 bytes for ./Symbols/72AE6FE9-2B23-369E-A1D8-B2E563BC3D50.symbols
+copying file ./Symbols/90A86D84-ACAA-3DFD-9259-AA5FB943241C.symbols ... 
+2018-03-07 09:39:11 +0000  94824 bytes for ./Symbols/90A86D84-ACAA-3DFD-9259-AA5FB943241C.symbols
+copying file ./Symbols/90AE04CC-EC45-3616-9CC2-A41EF142D7C9.symbols ... 
+2018-03-07 09:39:11 +0000  54664 bytes for ./Symbols/90AE04CC-EC45-3616-9CC2-A41EF142D7C9.symbols
+2018-03-07 09:39:11 +0000  copying file ./Symbols/9E326682-9E72-3EFC-BEF8-75E596939090.symbols ... 
+2018-03-07 09:39:11 +0000  418416 bytes for ./Symbols/9E326682-9E72-3EFC-BEF8-75E596939090.symbols
+copying file ./Symbols/AD059644-F119-3590-A13E-CCFA0D42CC49.symbols ... 
+2018-03-07 09:39:11 +0000  7910096 bytes for ./Symbols/AD059644-F119-3590-A13E-CCFA0D42CC49.symbols
+copying file ./Symbols/B529279A-1669-3865-8E5E-690F931D6907.symbols ... 
+2018-03-07 09:39:11 +0000  126152 bytes for ./Symbols/B529279A-1669-3865-8E5E-690F931D6907.symbols
+copying file ./Symbols/C5DBBCF5-9A23-37AF-8CEC-7DF39359CC58.symbols ... 
+2018-03-07 09:39:11 +0000  9586288 bytes for ./Symbols/C5DBBCF5-9A23-37AF-8CEC-7DF39359CC58.symbols
+copying file ./Symbols/D1948260-11EF-37C6-9315-E919DC551053.symbols ... 
+2018-03-07 09:39:11 +0000  53592 bytes for ./Symbols/D1948260-11EF-37C6-9315-E919DC551053.symbols
+copying file ./Symbols/D4BC8BD2-6595-350E-914A-865E22C8A952.symbols ... 
+2018-03-07 09:39:11 +0000  113312 bytes for ./Symbols/D4BC8BD2-6595-350E-914A-865E22C8A952.symbols
+copying file ./Symbols/D683D885-B0ED-3D0B-9A32-F712F46059A5.symbols ... 
+2018-03-07 09:39:12 +0000  1061312 bytes for ./Symbols/D683D885-B0ED-3D0B-9A32-F712F46059A5.symbols
+2018-03-07 09:39:12 +0000  copying file ./Symbols/F2411740-DEC0-3D6F-854B-BC36AB790C25.symbols ... 
+2018-03-07 09:39:12 +0000  349352 bytes for ./Symbols/F2411740-DEC0-3D6F-854B-BC36AB790C25.symbols
+copying file ./Symbols/F30F862B-EEC8-3619-A789-D95490D4EB59.symbols ... 
+2018-03-07 09:39:12 +0000  37920 bytes for ./Symbols/F30F862B-EEC8-3619-A789-D95490D4EB59.symbols
+copying file ./Symbols/F8C22936-AFA4-3115-8B5A-9FDB3F480AA3.symbols ... 
+2018-03-07 09:39:12 +0000  179168 bytes for ./Symbols/F8C22936-AFA4-3115-8B5A-9FDB3F480AA3.symbols
+copying file ./Symbols/F92A5255-2CB2-387C-9D95-C903EF99032B.symbols ... 
+2018-03-07 09:39:12 +0000  308648 bytes for ./Symbols/F92A5255-2CB2-387C-9D95-C903EF99032B.symbols
+2018-03-07 09:39:12 +0000  2018-03-07 09:39:12 +0000  
+
+2018-03-07 09:39:12 +0000  /usr/bin/ditto exited with 0
+2018-03-07 09:39:12 +0000  
+2018-03-07 09:39:12 +0000  
+2018-03-07 09:39:12 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-03-07 09:39:12 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

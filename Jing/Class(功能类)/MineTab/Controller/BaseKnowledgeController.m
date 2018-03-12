@@ -58,15 +58,14 @@
     }
 
     //测试Delegate
-    _codeStandards=[[MPDelegateCodeStandards alloc]initWithUserName:@"wujunyang"];
+    _codeStandards=[[MPDelegateCodeStandards alloc] initWithUserName:@"TWY"];
     _codeStandards.delegate = self;
     [_codeStandards changeUserName:2];
-    [_codeStandards getUserAddressWithName:@"厦门"];
+    [_codeStandards getUserAddressWithName:@"zhuhai"];
 
-    _otherCodeStandards=[[MPDelegateCodeStandards alloc]initWithUserName:@"cnblogs"];
+    _otherCodeStandards=[[MPDelegateCodeStandards alloc]initWithUserName:@"github"];
     _otherCodeStandards.delegate=self;
     [_otherCodeStandards changeUserName:10];
-
 }
 
 - (void)didReceiveMemoryWarning {

@@ -107,7 +107,7 @@
         make.left.equalTo(self.mas_left).offset(btn.frame.origin.x + btn.frame.size.width/2-15);
     }];
     if(!first) {
-        [UIView animateWithDuration:0.25 animations:^{
+        [UIView animateWithDuration:0.15 animations:^{
             [self layoutIfNeeded];
         }];
     }

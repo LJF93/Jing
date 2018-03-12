@@ -2,9 +2,6 @@
 //  MPTargetConfigMacros.h
 //  MobileProject  target配置管理
 //
-//  Created by wujunyang on 16/7/13.
-//  Copyright © 2016年 wujunyang. All rights reserved.
-//
 
 #ifndef MPTargetConfigMacros_h
 #define MPTargetConfigMacros_h

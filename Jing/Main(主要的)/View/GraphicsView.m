@@ -10,6 +10,8 @@
     return self;
 }
 
+// 若使用UIView绘图，只能在drawRect方法中获取相应的contextRef并绘图。
+// 每次调用drawRect之前会自动清除之前绘制的内容
 - (void)drawRect:(CGRect)rect {
 
     CGContextRef context = UIGraphicsGetCurrentContext();//获得当前画板

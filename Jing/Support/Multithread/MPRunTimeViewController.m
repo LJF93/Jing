@@ -1,10 +1,3 @@
-//
-//  MPRunTimeViewController.m
-//  MobileProject
-//
-//  Created by wujunyang on 2017/2/9.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "MPRunTimeViewController.h"
 
@@ -54,28 +47,23 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)saveAction
-{
+- (void)saveAction {
     NSLog(@"saveAction");
 }
 
 #pragma mark 重写BaseViewController设置内容
-
 //设置导航栏背景色
--(UIColor*)set_colorBackground
-{
+- (UIColor*)set_colorBackground {
     return [UIColor whiteColor];
 }
 
 ////设置标题
--(NSMutableAttributedString*)setTitle
-{
+- (NSMutableAttributedString*)setTitle {
     return [self changeTitle:@"运行时知识点"];
 }
 
 //设置左边按键
--(UIButton*)set_leftButton
-{
+- (UIButton*)set_leftButton {
     UIButton *left_button = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 22, 22)];
     [left_button setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
     [left_button setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateHighlighted];
@@ -83,30 +71,23 @@
 }
 
 //设置左边事件
--(void)left_button_event:(UIButton*)sender
-{
+- (void)left_button_event:(UIButton*)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark 自定义代码
-
--(NSMutableAttributedString *)changeTitle:(NSString *)curTitle
-{
+- (NSMutableAttributedString *)changeTitle:(NSString *)curTitle {
     NSMutableAttributedString *title = [[NSMutableAttributedString alloc] initWithString:curTitle];
     [title addAttribute:NSForegroundColorAttributeName value:HEXCOLOR(0x333333) range:NSMakeRange(0, title.length)];
     [title addAttribute:NSFontAttributeName value:CHINESE_SYSTEM(18) range:NSMakeRange(0, title.length)];
     return title;
 }
 
-
 #pragma mark RunTime代码
-
 //获取类的信息
--(void)getClassInfo
-{
+- (void)getClassInfo {
     //类名
     NSLog(@"class name: %s", class_getName([self.myRunTimeTest class]));
-    
     NSLog(@"==========================================================");
     
     // 父类
@@ -126,12 +107,11 @@
     NSLog(@"==========================================================");
 }
 
-
 //获取类的对应属性
--(void)getClassProperty
-{
+- (void)getClassProperty {
     unsigned int count;
     objc_property_t *propertyList = class_copyPropertyList([self.myRunTimeTest class], &count);
+    
     for (unsigned int i=0; i<count; i++) {
         const char *propertyName = property_getName(propertyList[i]);
         NSLog(@"属性名称为---->%@", [NSString stringWithUTF8String:propertyName]);
@@ -158,8 +138,7 @@
 }
 
 //获取类的成员变量
--(void)getClassMemberVariable
-{
+- (void)getClassMemberVariable {
     unsigned int count;
     Ivar *ivarList = class_copyIvarList([self.myRunTimeTest class], &count);
     for (unsigned int i = 0; i < count; i++) {
@@ -183,10 +162,9 @@
     //******显示内容如下******
     //当前存在变量 _UserAge
     
-    
     //动态修改变量的值
     MPRunTimeTest *testModel=[[MPRunTimeTest alloc]init];
-    testModel.name=@"wujunyang";
+    testModel.name=@"TWY";
     
     NSLog(@"当前值没有被修改为：%@",testModel.name);
     
@@ -207,13 +185,12 @@
     
     //******显示内容如下******
     //可以用来动态改变一些已经存在的值，或者是统一变量处理
-    //当前值没有被修改为：wujunyang
+    //当前值没有被修改为：TWY
     //当前修改后的变量值为：Good
 }
 
 //获取方法
--(void)getClassMethod
-{
+- (void)getClassMethod {
     unsigned int count;
     Method *methods = class_copyMethodList([self.myRunTimeTest class], &count);
     for (int i = 0; i < count; i++) {
@@ -244,8 +221,6 @@
     //注意主要差别是在object_getClass 如果是类方法的获取要object_getClass（Class）
     //类方法:showAddressInfo
     
-    
-    
     //判断类实例方法是否存在
     Method method1 = class_getInstanceMethod([self.myRunTimeTest class], @selector(showUserName:));
     if (method1 != NULL) {
@@ -255,21 +230,17 @@
     //******显示内容如下******
     //当前存在方法 showUserName:
     
-    
     //判断类方法是否存在
     Method classMethod = class_getClassMethod([self.myRunTimeTest class], @selector(showAddressInfo));
     if (classMethod != NULL) {
         NSLog(@"当前存在方法 : %s", method_getName(classMethod));
     }
-    
     //******显示内容如下******
     //当前存在方法 : showAddressInfo
 }
 
-
 //获取类的协议列表
--(void)getClassProtocol
-{
+- (void)getClassProtocol {
     unsigned int count;
     Protocol * __unsafe_unretained * protocols = class_copyProtocolList([self.myRunTimeTest class], &count);
     Protocol * protocol;
@@ -287,10 +258,8 @@
     //MPRunTimeTest is responsed to protocol NSCopying
 }
 
-
 //动态增加方法
--(void)addClassAction
-{
+- (void)addClassAction {
     class_addMethod([self.myRunTimeTest class], @selector(guess), (IMP)guessAnswer, "v@:");
     if ([self.myRunTimeTest respondsToSelector:@selector(guess)]) {
         //Method method = class_getInstanceMethod([self.myRunTimeTest class], @selector(guess));
@@ -307,8 +276,7 @@ void guessAnswer(id self,SEL _cmd){
 }
 
 //分类动态增加属性
--(void)addCategoryProperty
-{
+- (void)addCategoryProperty {
     MPRunTimeTest *test=[[MPRunTimeTest alloc]init];
     [test setWorkName:@"XM"];
     
@@ -319,28 +287,23 @@ void guessAnswer(id self,SEL _cmd){
     //当前的公司为：XM
 }
 
-
 //动态交换两个方法的实现
--(void)changeMethod
-{
+- (void)changeMethod {
     Method m1 = class_getInstanceMethod([self.myRunTimeTest class], @selector(showUserName:));
     Method m2 = class_getInstanceMethod([self.myRunTimeTest class], @selector(showUserAge:));
     
     method_exchangeImplementations(m1, m2);
     
-    NSLog(@"%@", [self.myRunTimeTest showUserName:@"wujunyang"]);
+    NSLog(@"%@", [self.myRunTimeTest showUserName:@"TWY"]);
     NSLog(@"%@", [self.myRunTimeTest showUserAge:@"20"]);
     
     //******显示内容如下******
     //注意 如果有参数 记得参数的类型要一般 或者可以进行相应的转换 或者两个方法类型不同会闪退
-    //当前显示年龄wujunyang
+    //当前显示年龄TWY
     //user name is 20
 }
 
-
-
 #pragma mark RunTime API 说明
-
 //***************************************************
 //// 获取类的类名
 //const char * class_getName ( Class cls );
@@ -417,8 +380,6 @@ void guessAnswer(id self,SEL _cmd){
 //
 //***************************************************
 
-
-
 //***************************************************
 // 调用指定方法的实现
 //    id method_invoke ( id receiver, Method m, ... );
@@ -460,8 +421,6 @@ void guessAnswer(id self,SEL _cmd){
 //    void method_exchangeImplementations ( Method m1, Method m2 );
 //
 //***************************************************
-
-
 
 //***************************************************
 //方法选择器 SEL

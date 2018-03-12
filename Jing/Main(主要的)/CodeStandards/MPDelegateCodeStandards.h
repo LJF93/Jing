@@ -3,9 +3,6 @@
 //  MobileProject
 //  @required的部份是規定要實作的(默认)，@optional的話就隨你高興了。要注意的是@required跟@optional這兩個語法的影響範圍，是從它以下所有的method都會被影響，直到另一個directive或是@end為止，所以如果你要省略@required的話，記得那些method要寫在@optional前面
 //
-//  Created by wujunyang on 2017/2/22.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 

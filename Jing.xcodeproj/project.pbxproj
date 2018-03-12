@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EAE717549D479802F1300088 /* Pods_Jing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F526F59E74C7548479FF74 /* Pods_Jing.framework */; };
+		F411B9D51F0B6CAC00DE8E20 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F411B9D41F0B6CAC00DE8E20 /* UserNotifications.framework */; };
+		F411B9D71F0B6CAC00DE8E20 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F411B9D61F0B6CAC00DE8E20 /* UserNotificationsUI.framework */; };
+		F411B9DB1F0B6CAC00DE8E20 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F411B9DA1F0B6CAC00DE8E20 /* NotificationViewController.m */; };
+		F411B9DE1F0B6CAC00DE8E20 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F411B9DC1F0B6CAC00DE8E20 /* MainInterface.storyboard */; };
+		F411B9E21F0B6CAC00DE8E20 /* NotificationTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F411B9D31F0B6CAC00DE8E20 /* NotificationTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F41FDD741F00F03400F09572 /* introductoryPage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F41FDD731F00F03400F09572 /* introductoryPage.bundle */; };
 		F41FDD771F00FC4A00F09572 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F41FDD761F00FC4A00F09572 /* Utils.m */; };
 		F46151F31EFA77A5008B964A /* XMLYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F46151121EFA77A4008B964A /* XMLYBaseRequest.m */; };
@@ -109,10 +114,57 @@
 		F46152531EFA77A5008B964A /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F46151F21EFA77A5008B964A /* GVUserDefaults.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F404EE601F56930D00105D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D132E11EB09B52005D8115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D132E81EB09B52005D8115;
+			remoteInfo = Jing;
+		};
+		F404EE6E1F56948600105D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D132E11EB09B52005D8115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D132E81EB09B52005D8115;
+			remoteInfo = Jing;
+		};
+		F411B9E01F0B6CAC00DE8E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D132E11EB09B52005D8115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F411B9D21F0B6CAC00DE8E20;
+			remoteInfo = NotificationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F411B9E61F0B6CAC00DE8E20 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F411B9E21F0B6CAC00DE8E20 /* NotificationTest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1FC8CDD23437641E3219DC66 /* Pods-Jing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jing/Pods-Jing.debug.xcconfig"; sourceTree = "<group>"; };
 		AE9FE4824849C4DB0B7EC8E1 /* Pods-Jing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jing/Pods-Jing.release.xcconfig"; sourceTree = "<group>"; };
 		D4F526F59E74C7548479FF74 /* Pods_Jing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F404EE5B1F56930D00105D42 /* JingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F404EE691F56948600105D42 /* JingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F411B9D31F0B6CAC00DE8E20 /* NotificationTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F411B9D41F0B6CAC00DE8E20 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F411B9D61F0B6CAC00DE8E20 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		F411B9D91F0B6CAC00DE8E20 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		F411B9DA1F0B6CAC00DE8E20 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		F411B9DD1F0B6CAC00DE8E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F411B9DF1F0B6CAC00DE8E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41FDD731F00F03400F09572 /* introductoryPage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = introductoryPage.bundle; sourceTree = "<group>"; };
 		F41FDD751F00FC4A00F09572 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		F41FDD761F00FC4A00F09572 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -304,6 +356,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F404EE581F56930D00105D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F404EE661F56948600105D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B9D01F0B6CAC00DE8E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B9D71F0B6CAC00DE8E20 /* UserNotificationsUI.framework in Frameworks */,
+				F411B9D51F0B6CAC00DE8E20 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4D132E61EB09B52005D8115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +394,8 @@
 			isa = PBXGroup;
 			children = (
 				D4F526F59E74C7548479FF74 /* Pods_Jing.framework */,
+				F411B9D41F0B6CAC00DE8E20 /* UserNotifications.framework */,
+				F411B9D61F0B6CAC00DE8E20 /* UserNotificationsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -330,6 +407,17 @@
 				AE9FE4824849C4DB0B7EC8E1 /* Pods-Jing.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F411B9D81F0B6CAC00DE8E20 /* NotificationTest */ = {
+			isa = PBXGroup;
+			children = (
+				F411B9D91F0B6CAC00DE8E20 /* NotificationViewController.h */,
+				F411B9DA1F0B6CAC00DE8E20 /* NotificationViewController.m */,
+				F411B9DC1F0B6CAC00DE8E20 /* MainInterface.storyboard */,
+				F411B9DF1F0B6CAC00DE8E20 /* Info.plist */,
+			);
+			path = NotificationTest;
 			sourceTree = "<group>";
 		};
 		F461510D1EFA77A4008B964A /* Jing */ = {
@@ -865,15 +953,72 @@
 			isa = PBXGroup;
 			children = (
 				F461510D1EFA77A4008B964A /* Jing */,
+				F411B9D81F0B6CAC00DE8E20 /* NotificationTest */,
 				30C99E7F3B56956553D59E65 /* Frameworks */,
 				C88A18F9B121F8AA8E77FDE9 /* Pods */,
 				F49EB4461ECD995E0054D94D /* Jing.app */,
+				F411B9D31F0B6CAC00DE8E20 /* NotificationTest.appex */,
+				F404EE5B1F56930D00105D42 /* JingTests.xctest */,
+				F404EE691F56948600105D42 /* JingUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F404EE5A1F56930D00105D42 /* JingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F404EE641F56930D00105D42 /* Build configuration list for PBXNativeTarget "JingTests" */;
+			buildPhases = (
+				F404EE571F56930D00105D42 /* Sources */,
+				F404EE581F56930D00105D42 /* Frameworks */,
+				F404EE591F56930D00105D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F404EE611F56930D00105D42 /* PBXTargetDependency */,
+			);
+			name = JingTests;
+			productName = JingTests;
+			productReference = F404EE5B1F56930D00105D42 /* JingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F404EE681F56948600105D42 /* JingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F404EE701F56948600105D42 /* Build configuration list for PBXNativeTarget "JingUITests" */;
+			buildPhases = (
+				F404EE651F56948600105D42 /* Sources */,
+				F404EE661F56948600105D42 /* Frameworks */,
+				F404EE671F56948600105D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F404EE6F1F56948600105D42 /* PBXTargetDependency */,
+			);
+			name = JingUITests;
+			productName = JingUITests;
+			productReference = F404EE691F56948600105D42 /* JingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F411B9D21F0B6CAC00DE8E20 /* NotificationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F411B9E51F0B6CAC00DE8E20 /* Build configuration list for PBXNativeTarget "NotificationTest" */;
+			buildPhases = (
+				F411B9CF1F0B6CAC00DE8E20 /* Sources */,
+				F411B9D01F0B6CAC00DE8E20 /* Frameworks */,
+				F411B9D11F0B6CAC00DE8E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationTest;
+			productName = NotificationTest;
+			productReference = F411B9D31F0B6CAC00DE8E20 /* NotificationTest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F4D132E81EB09B52005D8115 /* Jing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D133001EB09B53005D8115 /* Build configuration list for PBXNativeTarget "Jing" */;
@@ -884,10 +1029,12 @@
 				F4D132E71EB09B52005D8115 /* Resources */,
 				BB220D47741C4F675C0B4D8F /* [CP] Embed Pods Frameworks */,
 				EBD8A3ABADEF2FE44105056C /* [CP] Copy Pods Resources */,
+				F411B9E61F0B6CAC00DE8E20 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F411B9E11F0B6CAC00DE8E20 /* PBXTargetDependency */,
 			);
 			name = Jing;
 			productName = AdveriseIntroductoryPage;
@@ -900,16 +1047,34 @@
 		F4D132E11EB09B52005D8115 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Sanvio;
 				TargetAttributes = {
+					F404EE5A1F56930D00105D42 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NVUT96JB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4D132E81EB09B52005D8115;
+					};
+					F404EE681F56948600105D42 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NVUT96JB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4D132E81EB09B52005D8115;
+					};
+					F411B9D21F0B6CAC00DE8E20 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9NVUT96JB4;
+						ProvisioningStyle = Automatic;
+					};
 					F4D132E81EB09B52005D8115 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 9NVUT96JB4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -938,11 +1103,36 @@
 			projectRoot = "";
 			targets = (
 				F4D132E81EB09B52005D8115 /* Jing */,
+				F411B9D21F0B6CAC00DE8E20 /* NotificationTest */,
+				F404EE5A1F56930D00105D42 /* JingTests */,
+				F404EE681F56948600105D42 /* JingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F404EE591F56930D00105D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F404EE671F56948600105D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B9D11F0B6CAC00DE8E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B9DE1F0B6CAC00DE8E20 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4D132E71EB09B52005D8115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1026,6 +1216,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F404EE571F56930D00105D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F404EE651F56948600105D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411B9CF1F0B6CAC00DE8E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411B9DB1F0B6CAC00DE8E20 /* NotificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4D132E51EB09B52005D8115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1109,7 +1321,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F404EE611F56930D00105D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D132E81EB09B52005D8115 /* Jing */;
+			targetProxy = F404EE601F56930D00105D42 /* PBXContainerItemProxy */;
+		};
+		F404EE6F1F56948600105D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D132E81EB09B52005D8115 /* Jing */;
+			targetProxy = F404EE6E1F56948600105D42 /* PBXContainerItemProxy */;
+		};
+		F411B9E11F0B6CAC00DE8E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F411B9D21F0B6CAC00DE8E20 /* NotificationTest */;
+			targetProxy = F411B9E01F0B6CAC00DE8E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		F411B9DC1F0B6CAC00DE8E20 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F411B9DD1F0B6CAC00DE8E20 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		F46151251EFA77A4008B964A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1139,6 +1377,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F404EE621F56930D00105D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = JingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.JingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jing.app/Jing";
+			};
+			name = Debug;
+		};
+		F404EE631F56930D00105D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = JingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.JingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jing.app/Jing";
+			};
+			name = Release;
+		};
+		F404EE711F56948600105D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = JingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.JingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jing;
+			};
+			name = Debug;
+		};
+		F404EE721F56948600105D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = JingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.JingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jing;
+			};
+			name = Release;
+		};
+		F411B9E31F0B6CAC00DE8E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = NotificationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.Jing.NotificationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F411B9E41F0B6CAC00DE8E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9NVUT96JB4;
+				INFOPLIST_FILE = NotificationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.Jing.NotificationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		F4D132FE1EB09B53005D8115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1234,17 +1556,19 @@
 			baseConfigurationReference = 1FC8CDD23437641E3219DC66 /* Pods-Jing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Jing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NVUT96JB4;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
-				INFOPLIST_FILE = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Info.plist;
+				GCC_PREFIX_HEADER = /Users/sanvio171120/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Jing/Support/Info.plist";
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.Jing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
@@ -1254,17 +1578,19 @@
 			baseConfigurationReference = AE9FE4824849C4DB0B7EC8E1 /* Pods-Jing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Jing.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9NVUT96JB4;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
-				INFOPLIST_FILE = /Users/Home/Documents/IOSDemo/Jing/Jing/Support/Info.plist;
+				GCC_PREFIX_HEADER = /Users/sanvio171120/Documents/IOSDemo/Jing/Jing/Support/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Jing/Support/Info.plist";
 				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.sanvio.Jing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
@@ -1272,6 +1598,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F404EE641F56930D00105D42 /* Build configuration list for PBXNativeTarget "JingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F404EE621F56930D00105D42 /* Debug */,
+				F404EE631F56930D00105D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F404EE701F56948600105D42 /* Build configuration list for PBXNativeTarget "JingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F404EE711F56948600105D42 /* Debug */,
+				F404EE721F56948600105D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F411B9E51F0B6CAC00DE8E20 /* Build configuration list for PBXNativeTarget "NotificationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F411B9E31F0B6CAC00DE8E20 /* Debug */,
+				F411B9E41F0B6CAC00DE8E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F4D132E41EB09B52005D8115 /* Build configuration list for PBXProject "Jing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

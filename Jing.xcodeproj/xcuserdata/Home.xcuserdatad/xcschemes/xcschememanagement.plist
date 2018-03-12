@@ -4,14 +4,34 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Jing.xcscheme</key>
+		<key>Jing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+		<key>NotificationTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F404EE5A1F56930D00105D42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F404EE681F56948600105D42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F411B9D21F0B6CAC00DE8E20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F4D132E81EB09B52005D8115</key>
 		<dict>
 			<key>primary</key>

@@ -1,10 +1,3 @@
-//
-//  UIButton+MPHock.m
-//  MobileProject
-//
-//  Created by wujunyang on 2017/2/10.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "UIButton+MPHock.h"
 #import <objc/runtime.h>

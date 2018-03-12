@@ -1,10 +1,3 @@
-//
-//  MPGCDViewController.m
-//  MobileProject
-//
-//  Created by wujunyang on 2017/2/16.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "MPGCDViewController.h"
 

@@ -10,8 +10,6 @@
 
 @interface AdvertiseHelper : NSObject
 
-+ (instancetype)sharedInstance;
-
 + (void)showAdvertiseView:(NSArray *)imageArray;
 
 @end

@@ -2,10 +2,6 @@
 //  Macros.h
 //  MobileProject  常见的配置项
 //
-//  Created by wujunyang on 16/1/5.
-//  Copyright © 2016年 wujunyang. All rights reserved.
-//
-
 
 //中文字体
 #define CHINESE_FONT_NAME  @"Heiti SC"

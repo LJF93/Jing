@@ -7,7 +7,6 @@
 //
 
 #import "MineHeaderView.h"
-#import "CALayer+XibConfiguration.h"
 #import "UIResponder+Router.h"
 
 @interface MineHeaderView ()

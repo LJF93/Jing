@@ -1,40 +1,24 @@
-//
-//  MPRunTimeTest.m
-//  MobileProject
-//
-//  Created by wujunyang on 2017/2/9.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "MPRunTimeTest.h"
 #import <objc/runtime.h>
 
-@interface MPRunTimeTest()
-{
+@interface MPRunTimeTest() {
     int _UserAge;
 }
 @end
 
 @implementation MPRunTimeTest
 
-+(void)showAddressInfo
-{
++ (void)showAddressInfo {
     NSLog(@"当前地址为:厦门市");
 }
 
--(NSString *)showUserName:(NSString *)name
-{
+- (NSString *)showUserName:(NSString *)name {
     return [NSString stringWithFormat:@"user name is %@",name];
 }
 
-
-
-
 //NSCoding
-
-- (void)encodeWithCoder:(NSCoder *)encoder
-
-{
+- (void)encodeWithCoder:(NSCoder *)encoder{
     unsigned int count = 0;
     
     Ivar *ivars = class_copyIvarList([MPRunTimeTest class], &count);
@@ -49,17 +33,11 @@
         NSString *key = [NSString stringWithUTF8String:name];
         id value = [self valueForKey:key];
         [encoder encodeObject:value forKey:key];
-        
     }
-    
     free(ivars);
-    
-    
 }
 
-- (id)initWithCoder:(NSCoder *)decoder
-
-{
+- (id)initWithCoder:(NSCoder *)decoder {
     if (self = [super init]) {
         unsigned int count = 0;
         Ivar *ivars = class_copyIvarList([MPRunTimeTest class], &count);
@@ -73,14 +51,10 @@
             id value = [decoder decodeObjectForKey:key];
             // 设置到成员变量身上
             [self setValue:value forKey:key];
-            
         }
         free(ivars);
-        
     }
-    
     return self;
-    
 }
 
 @end

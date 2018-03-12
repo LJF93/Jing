@@ -17,7 +17,7 @@
 @interface FindSubTitleView : UIView
 
 /**
- *  字标题视图的数据源
+ *  子标题视图的数据源
  */
 @property (nonatomic, strong) NSMutableArray<NSString *> *titleArray;
 

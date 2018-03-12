@@ -34,8 +34,11 @@
     // 加载广告页面(最后添加，确保显示在UIWindow的最上层！！！)
     [self setupAdvertiseView];
 
-    //键盘统一收回处理
+    // 键盘统一收回处理
     [self configureBoardManager];
+
+    // Typical usage
+    [self openScheme:@"tweetbot://timeline"];
 
     NSString *pathString = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSLog(@"pathString:\n%@", pathString);
@@ -78,6 +81,24 @@
     manager.shouldToolbarUsesTextFieldTintColor = YES;
     manager.keyboardDistanceFromTextField=60;
     manager.enableAutoToolbar = NO;
+}
+
+// 兼容iOS9及更早的版本
+- (void)openScheme:(NSString *)scheme {
+    UIApplication *application = [UIApplication sharedApplication];
+    NSURL *URL = [NSURL URLWithString:scheme];
+
+    if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+        [application openURL:URL
+                     options:@{}
+           completionHandler:^(BOOL success) {
+               NSLog(@"Open %@: %d",scheme,success);
+           }];
+    }
+    else {
+        BOOL success = [application openURL:URL];
+        NSLog(@"Open %@: %d",scheme,success);
+    }
 }
 
 @end

@@ -2,9 +2,6 @@
 //  MPCodeStandards.m
 //  MobileProject
 //
-//  Created by wujunyang on 2017/2/22.
-//  Copyright © 2017年 wujunyang. All rights reserved.
-//
 
 #import "MPCodeStandards.h"
 

@@ -10,8 +10,6 @@
 
 @interface IntroductoryPageHelper : NSObject
 
-+ (instancetype)sharedInstance;
-
 + (void)showIntroductoryPageView: (NSArray *)images;
 
 @end

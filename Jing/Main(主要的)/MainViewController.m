@@ -9,11 +9,11 @@
 #import "MainViewController.h"
 #import "BaseNavigationViewController.h"
 
-#define FindStory       @"Find"
-#define SoundStory      @"Sound"
-#define PlayStory       @"Play"
+#define FindStory           @"Find"
+#define SoundStory        @"Sound"
+#define PlayStory            @"Play"
 #define DownloadStory   @"Download"
-#define MineStory       @"Mine"
+#define MineStory           @"Mine"
 
 @interface MainViewController()<UITabBarControllerDelegate, UINavigationControllerDelegate>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12113" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -118,7 +118,6 @@
                 <constraint firstItem="kY1-Ws-VLJ" firstAttribute="leading" secondItem="jbs-B0-ZzN" secondAttribute="leading" constant="4" id="0vY-of-8Gm"/>
                 <constraint firstItem="My7-in-98m" firstAttribute="top" secondItem="fQL-Vj-FTD" secondAttribute="bottom" constant="12" id="4Bn-Sq-hqq"/>
                 <constraint firstItem="Q03-Xi-Ytv" firstAttribute="top" secondItem="jbs-B0-ZzN" secondAttribute="top" constant="42" id="4SA-Cw-pc9"/>
-                <constraint firstItem="LBk-uu-48I" firstAttribute="leading" secondItem="My7-in-98m" secondAttribute="trailing" constant="47" id="6of-Qp-4Lw"/>
                 <constraint firstItem="LBk-uu-48I" firstAttribute="leading" secondItem="My7-in-98m" secondAttribute="trailing" constant="47" id="8U2-sv-FDI"/>
                 <constraint firstItem="LBk-uu-48I" firstAttribute="top" secondItem="fQL-Vj-FTD" secondAttribute="bottom" constant="12" id="9SF-UL-QbJ"/>
                 <constraint firstItem="trH-oP-h84" firstAttribute="top" secondItem="jbs-B0-ZzN" secondAttribute="top" id="C53-xX-15W"/>

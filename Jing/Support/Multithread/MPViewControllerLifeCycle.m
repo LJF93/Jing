@@ -1,10 +1,3 @@
-//
-//  MPViewControllerLifeCycle.m
-//  MobileProject
-//
-//  Created by wujunyang on 2016/11/10.
-//  Copyright © 2016年 wujunyang. All rights reserved.
-//
 
 #import "MPViewControllerLifeCycle.h"
 
